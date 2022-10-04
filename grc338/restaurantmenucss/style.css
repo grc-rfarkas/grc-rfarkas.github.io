@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-	background-color: rgb(163, 157, 157);
+	background-color: rgb(103, 119, 153);
 	color: rgba(232, 238, 239, 0.823); /* Same as body background. */
 	font-size: 3em;
 	padding: 1em 0.5em 1.5em; /* You want three values. */
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-	margin: 1em 1em 1em; /*Three values again. You got the idea.*/
+	margin: 0em 0em 0em; /*Three values again. You got the idea.*/
 	padding-top: 1em;
 	font-size: 2em;
 	color:rgb(9, 9, 78);
