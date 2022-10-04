@@ -41,8 +41,8 @@ h2 {
 }
 
 h3 {
-	margin: 1em 0em 0.5em; /*Three values again. You got the idea.*/
-	padding-top: 1em;
+	margin: 1em 0em 0em; /*Three values again. You got the idea.*/
+	padding-top: 2em;
 	font-size: 2em;
 	color:rgb(9, 9, 78);
 	font-weight: normal;
