@@ -35,7 +35,7 @@ h2 {
 	background-color: 0,0,0;
 	color: 0,0,0,;
 	font-size: 2em;
-	padding: 0em 0.5em 0.5em;
+	padding: 0em 0em 0em;
 	font-family: serif;
 	font-weight: normal;
 }
@@ -64,9 +64,9 @@ p.price {
 }
 
 ul {
-	margin: 1em 1em 1em;
+	margin: 0em 0em 0em;
 }
 
 li { 
-	margin: 1em 1em 1em;
+	margin: 0em 0em 0em;
 }
