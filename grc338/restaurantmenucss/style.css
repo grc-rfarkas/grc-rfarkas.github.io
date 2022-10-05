@@ -27,7 +27,7 @@ h1 {
 h1 span { 	
 	font-family: serif;
 	font-style: italic;
-	font-weight: bolder;
+	font-weight: normal;
 	text-transform: lowercase;
 }
 
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-	margin: 2rem 2rem 1rem; /*Three values again. You got the idea.*/
+	margin: 4rem 2rem 1rem; /*Three values again. You got the idea.*/
 	padding-top: 1rem;
 	font-size: 1.1em;
 	color:rgb(157, 31, 31);
@@ -66,10 +66,10 @@ p.price {
 }
 
 ul {
-	margin: 2rem 2rem 1rem;
+	margin: 1rem 1rem 1rem;
 }
 
 li { 
-	margin: 2rem 2rem 1rem;
+	margin: 1rem 1rem 1rem;
 	list-style:none
 }
