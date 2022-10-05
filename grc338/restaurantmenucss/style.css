@@ -48,7 +48,7 @@ h3 {
 	font-weight: normal;
 	text-transform: capitalize;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-	border-top: 0.5rem 0.5rem 0.5rem;
+	border-top: 0rem 0rem 0rem;
 }
 
 h4 {
