@@ -9,31 +9,31 @@ img {
 
 body {
 	background-color: rgba(232, 238, 239, 0.823); /* Not totally white. */
-	color: rgb(103, 119, 153);  /* Not totally black. */
+	color: rgb(33, 33, 35);  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
-	font-family: serif;
+	font-family: sans-serif;
 }
 
 h1 {
-	background-color: rgb(103, 119, 153);
+	background-color: rgb(162, 155, 174);
 	color: rgba(232, 238, 239, 0.823); /* Same as body background. */
 	font-size: 3em;
 	padding: 2rem 4rem 2rem; /* You want three values. */
 	font-weight: bold;
-	text-transform: capitalize;
+	text-transform: uppcase;
 }
 
 /* You’ll need to add a span element to your HTML. */
 h1 span { 	
 	font-family: sans-serif;
-	font-style: bold;
+	font-style: italic;
 	font-weight: bold;
-	text-transform: capitalize;
+	text-transform: lowercase;
 }
 
 h2 {
-	background-color: 0,0,0;
-	color: 0,0,0,;
+	background-color: rgb(162, 155, 174);
+	color: rgba(232, 238, 239, 0.823);
 	font-size: 2em;
 	padding: 1rem 2rem 0rem;
 	font-family: serif;
@@ -44,13 +44,13 @@ h3 {
 	margin: 2rem 2rem 1rem; /*Three values again. You got the idea.*/
 	padding-top: 0.5rem;
 	font-size: 2em;
-	color:rgb(9, 9, 78);
+	color:rgb(157, 31, 31);
 	font-weight: normal;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top-width: 0.1rem; 
 	border-top-style: solid;
-	border-top-color: rgb(9, 9, 78);
+	border-top-color: rgb(157, 31, 31);
 }
 
 h4 {
@@ -62,7 +62,7 @@ p.description {
 }
 
 p.price {
-	color: rgb(86, 95, 157);
+	color: rgb(157, 31, 31);
 }
 
 ul {
