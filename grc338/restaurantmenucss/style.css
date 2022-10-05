@@ -15,12 +15,12 @@ body {
 }
 
 h1 {
-	background-color: rgb(162, 155, 174);
+	background-color: rgb(157, 155, 174);
 	color: rgba(232, 238, 239, 0.823); /* Same as body background. */
 	font-size: 3em;
 	padding: 2rem 2rem 2rem; /* You want three values. */
 	font-weight: bold;
-	text-transform: uppcase;
+	text-transform: uppercase;
 }
 
 /* You’ll need to add a span element to your HTML. */
@@ -32,12 +32,12 @@ h1 span {
 }
 
 h2 {
-	background-color: rgb(162, 155, 174);
+	background-color: rgb(157, 155, 174);
 	color: rgba(232, 238, 239, 0.823);
 	font-size: 2em;
 	padding: 1rem 2rem 0rem;
 	font-family: serif;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 h3 {
