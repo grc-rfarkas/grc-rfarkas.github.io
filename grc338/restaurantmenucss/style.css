@@ -35,7 +35,6 @@ h2 {
 	background-color: 0,0,0;
 	color: 0,0,0,;
 	font-size: 2em;
-	margin: 4rem 2rem 1rem; /*Three values again. You got the idea.*/
 	padding: 4rem 2rem 1rem;
 	font-family: serif;
 	font-weight: normal;
@@ -47,7 +46,7 @@ h3 {
 	font-size: 2em;
 	color:rgb(9, 9, 78);
 	font-weight: normal;
-	text-transform: none;
+	text-transform: capitalize;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: 0.5rem 0.5rem 0.5rem;
 }
@@ -69,5 +68,5 @@ ul {
 }
 
 li { 
-	margin: 1rem 1rem 1rem;
+	margin: 1rem 0.5rem 1rem;
 }
