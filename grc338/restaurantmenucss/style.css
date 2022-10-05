@@ -8,7 +8,7 @@ img {
 }
 
 body {
-	background-color: rgba(232, 238, 239, 0.823); /* Not totally white. */
+	background-color: rgba(246, 252, 253, 0.823); /* Not totally white. */
 	color: rgb(33, 33, 35);  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
 	font-family: sans-serif;
@@ -16,9 +16,9 @@ body {
 
 h1 {
 	background-color: rgb(157, 155, 174);
-	color: rgba(232, 238, 239, 0.823); /* Same as body background. */
+	color: rgba(246, 252, 253, 0.823); /* Same as body background. */
 	font-size: 3em;
-	padding: 2rem 1rem 2rem; /* You want three values. */
+	padding: 2rem 2rem 2rem; /* You want three values. */
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -27,7 +27,7 @@ h1 {
 h1 span { 	
 	font-family: serif;
 	font-style: italic;
-	font-weight: bold;
+	font-weight: bolder;
 	text-transform: lowercase;
 }
 
@@ -66,7 +66,7 @@ p.price {
 }
 
 ul {
-	margin: 1rem 0rem 1rem;
+	margin: 1rem 2rem 1rem;
 }
 
 li { 
