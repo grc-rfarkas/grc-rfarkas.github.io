@@ -43,7 +43,7 @@ h2 {
 h3 {
 	margin: 2rem 2rem 1rem; /*Three values again. You got the idea.*/
 	padding-top: 1rem;
-	font-size: 1.5em;
+	font-size: 1.1em;
 	color:rgb(157, 31, 31);
 	font-weight: bold;
 	text-transform: uppercase;
@@ -66,10 +66,10 @@ p.price {
 }
 
 ul {
-	margin: 1rem 2rem 1rem;
+	margin: 2rem 2rem 1rem;
 }
 
 li { 
-	margin: 1rem 2rem 1rem;
+	margin: 2rem 2rem 1rem;
 	list-style:none
 }
