@@ -18,7 +18,7 @@ h1 {
 	background-color: rgb(157, 155, 174);
 	color: rgba(246, 252, 253, 0.823); /* Same as body background. */
 	font-size: 3em;
-	padding: 2rem 2rem 2rem; /* You want three values. */
+	padding: 2rem 2rem 1rem; /* You want three values. */
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -43,7 +43,7 @@ h2 {
 h3 {
 	margin: 2rem 2rem 1rem; /*Three values again. You got the idea.*/
 	padding-top: 0.5rem;
-	font-size: 1em;
+	font-size: 1.5em;
 	color:rgb(157, 31, 31);
 	font-weight: bold;
 	text-transform: uppercase;
