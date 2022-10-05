@@ -8,7 +8,7 @@ img {
 }
 
 body {
-	background-color: rgba(246, 252, 253, 0.823); /* Not totally white. */
+	background-color: rgba(232, 238, 239, 0.823); /* Not totally white. */
 	color: rgb(33, 33, 35);  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
 	font-family: sans-serif;
@@ -16,9 +16,9 @@ body {
 
 h1 {
 	background-color: rgb(157, 155, 174);
-	color: rgba(246, 252, 253, 0.823); /* Same as body background. */
+	color: rgba(232, 238, 239, 0.823); /* Same as body background. */
 	font-size: 3em;
-	padding: 2rem 2rem 1rem; /* You want three values. */
+	padding: 3rem 2rem 1rem; /* You want three values. */
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -44,13 +44,13 @@ h3 {
 	margin: 4rem 2rem 1rem; /*Three values again. You got the idea.*/
 	padding-top: 1rem;
 	font-size: 1.1em;
-	color:rgb(157, 31, 31);
+	color:rgb(212, 36, 36);
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-	border-top-width: 0.1rem; 
+	border-top-width: 0.2rem; 
 	border-top-style: solid;
-	border-top-color: rgb(157, 31, 31);
+	border-top-color: rgb(212, 36, 36);
 }
 
 h4 {
@@ -62,7 +62,7 @@ p.description {
 }
 
 p.price {
-	color: rgb(157, 31, 31);
+	color: rgb(212, 36, 36);
 }
 
 ul {
