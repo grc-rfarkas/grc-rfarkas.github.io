@@ -18,7 +18,7 @@ h1 {
 	background-color: rgb(103, 119, 153);
 	color: rgba(232, 238, 239, 0.823); /* Same as body background. */
 	font-size: 3em;
-	padding: 1em 3em 1em; /* You want three values. */
+	padding: 1rem 3em 1em; /* You want three values. */
 	font-weight: bold;
 	text-transform: capitalize;
 }
@@ -35,13 +35,13 @@ h2 {
 	background-color: 0,0,0;
 	color: 0,0,0,;
 	font-size: 2em;
-	padding: 0.5rem;
+	padding: 1rem 1rem 1rem;
 	font-family: serif;
 	font-weight: normal;
 }
 
 h3 {
-	margin: 0rem 0em 0em 1rem; /*Three values again. You got the idea.*/
+	margin: 1rem 0em 0em 1rem; /*Three values again. You got the idea.*/
 	padding-top: 0rem;
 	font-size: 2em;
 	color:rgb(9, 9, 78);
@@ -68,5 +68,5 @@ ul {
 }
 
 li { 
-	margin: 1rem 1rem 1rem 4rem;
+	margin: 1rem 1rem 1rem;
 }
