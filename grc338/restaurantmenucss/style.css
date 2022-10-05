@@ -35,13 +35,13 @@ h2 {
 	background-color: 0,0,0;
 	color: 0,0,0,;
 	font-size: 2em;
-	padding: 1rem 1rem 1rem;
+	padding: 4rem 2rem 2rem;
 	font-family: serif;
 	font-weight: normal;
 }
 
 h3 {
-	margin: 1rem 0em 0em 1rem; /*Three values again. You got the idea.*/
+	margin: 4rem 2rem 1rem; /*Three values again. You got the idea.*/
 	padding-top: 0rem;
 	font-size: 2em;
 	color:rgb(9, 9, 78);
