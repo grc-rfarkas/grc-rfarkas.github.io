@@ -25,7 +25,7 @@ h1 {
 
 /* You’ll need to add a span element to your HTML. */
 h1 span { 	
-	font-family: sans-serif;
+	font-family: serif;
 	font-style: italic;
 	font-weight: bold;
 	text-transform: lowercase;
@@ -35,7 +35,7 @@ h2 {
 	background-color: rgb(157, 155, 174);
 	color: rgba(232, 238, 239, 0.823);
 	font-size: 2em;
-	padding: 1rem 2rem 0rem;
+	padding: 1rem 2rem 2rem;
 	font-family: serif;
 	font-weight: bold;
 }
@@ -45,7 +45,7 @@ h3 {
 	padding-top: 0.5rem;
 	font-size: 1em;
 	color:rgb(157, 31, 31);
-	font-weight: normal;
+	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top-width: 0.1rem; 
@@ -70,6 +70,6 @@ ul {
 }
 
 li { 
-	margin: 1rem 0.5rem 1rem;
+	margin: 1rem 0rem 1rem;
 	list-style:none
 }
