@@ -7,15 +7,15 @@ img {
 }
 
 body {
-	background-color: rgba(232, 238, 239, 0.823); /* Not totally white. */
-	color: rgb(33, 33, 35);  /* Not totally black. */
+	background-color: rgb(0, 0, 0,); /* Not totally white. */
+	color: rgb(240, 240, 240);  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
 	font-family: sans-serif;
 }
 
  h1 {
-        background-color: rgb(157, 155, 174);
-        color: rgba(232, 238, 239, 0.823); /* Same as body background. */
+        background-color: rgb(240, 141, 52);
+        color: rgb(0, 0, 0,); /* Same as body background. */
         font-size: 3em;
         padding: 3rem 2rem 1rem; /* You want three values. */
         font-family: Sutro, serif;  
@@ -25,7 +25,7 @@ body {
 
     h2 {
         background-color: rgb(157, 155, 174);
-        color: rgba(232, 238, 239, 0.823);
+        color: rgb(5, 5, 5,);
         font-size: 2em;
         padding: 1rem 2rem 2rem;
         font-family: Sutro, serif;  
@@ -37,14 +37,13 @@ body {
         margin: 4rem 2rem 1rem; /*Three values again. You got the idea.*/
         padding-top: 1rem;
         font-size: 1.1em;
-        color:rgb(170, 28, 28);
+        color:rgb(240, 141, 52);
         font-weight: bold;
         text-transform: uppercase;
         font-family: poppins, sans-serif;  
         font-weight: 400;  
         font-style: normal;
         letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-        border-top-width: 0.2rem; 
-        border-top-style: solid;
-        border-top-color: rgb(170, 28, 28);
     }
+
+
