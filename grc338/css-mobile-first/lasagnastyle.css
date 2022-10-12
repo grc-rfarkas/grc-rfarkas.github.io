@@ -20,17 +20,17 @@ img {
         background-color: rgb(240, 141, 52);
         color: rgb(255, 255, 255,);
         font-size: 2em;
-        padding: 1rem 2rem 2rem;
+        padding: 0rem 2rem 2rem;
         font-family: Sutro, serif;  
         font-weight: 300;  
         font-style: normal;
     }
     figcaption {
-        background-color: rgb(240, 141, 52);
+        background-color: rgb(255, 255, 255);
         color: rgb(255, 255, 255,); /* Same as body background. */
         font-size: 1em;
         padding: 3rem 2rem 1rem; /* You want three values. */
-        font-family: Sutro, serif;  
+        font-family: Sutro, sans-serif;  
         font-weight: 700;  
         font-style: italic;
     }
