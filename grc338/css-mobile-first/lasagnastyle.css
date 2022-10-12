@@ -5,16 +5,15 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 img {
     width: 100%; /*Please leave this line.*/
 }
-
- h1 {
-        background-color: rgb(240, 141, 52);
-        color: rgb(255, 255, 255,); /* Same as body background. */
-        font-size: 3em;
-        padding: 3rem 2rem 1rem; /* You want three values. */
-        font-family: Sutro, serif;  
-        font-weight: 700;  
-        font-style: normal;
-    }
+header{
+    background-color: rgb(240, 141, 52);
+    color: rgb(255, 255, 255,); /* Same as body background. */
+    font-size: 3em;
+    padding: 3rem 2rem 1rem; /* You want three values. */
+    font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;   
+}
 
     h2 {
         background-color: rgb(240, 141, 52);
