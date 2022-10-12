@@ -8,7 +8,7 @@ img {
 
  h1 {
         background-color: rgb(240, 141, 52);
-        color: rgb(0, 0, 0,); /* Same as body background. */
+        color: rgb(245, 245, 245,); /* Same as body background. */
         font-size: 2.5em;
         padding: 3rem 2rem 1rem; /* You want three values. */
         font-family: Sutro, serif;  
@@ -18,7 +18,7 @@ img {
 
     h2 {
         background-color: rgb(240, 141, 52);
-        color: rgb(0, 0, 0,);
+        color: rgb(245, 245, 245,);
         font-size: 2em;
         padding: 0rem 2rem 2rem;
         font-family: Sutro, serif;  
@@ -28,7 +28,7 @@ img {
     figcaption {
         color: rgb(255, 255, 255,); /* Same as body background. */
         font-size: 1em;
-        padding: 0rem 2rem 1rem; /* You want three values. */
+        padding: 1rem 2rem 1rem; /* You want three values. */
         font-family: poppins, sans-serif;  
         font-weight: 400;  
         font-style: italic;
