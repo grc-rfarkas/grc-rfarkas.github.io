@@ -9,8 +9,8 @@ img {
 body{
     background-color: rgb(245, 245, 245);
     color: rgb(0, 0, 0,); 
-    line-height: 140%
-    font-family: poppins, sans-serif
+    line-height: 140%;
+    font-family: poppins, sans-serif;
 }
 
  h1 {
@@ -55,7 +55,6 @@ body{
     }
 
     ul {
-        list-style-type:bullets
         counter-reset: css-counters 0; /* intializes counter, set -1 for zero-based counters */
         line-height: 140%; 	
         font-family: sans-serif;
@@ -67,23 +66,18 @@ body{
       }
 
     ol {
-        list-style-type:numbers 
         background-color: rgba(255, 255, 255); 
         color: rgb(0, 0, 0); 
         line-height: 140%; 
         font-family: poppins, sans-serif;
         margin: 1rem 1rem 1rem;
     }
-    
-    li { 
-        margin: 1rem 1rem 1rem;
-    }
 
     footer {
-        background-color: rgb(240, 141, 52)
-        color: 255, 255, 255
-        font-family: poppins, sans-serif
-        font-size:1.5em
+        background-color: rgb(240, 141, 52);
+        color: rgb(255, 255, 255);
+        font-size:1.5em;
+        padding 1rem, 2rem, 1rem;
 
     }
         
