@@ -54,8 +54,8 @@ img {
       }
 
     ol {
-        background-color: rgba(232, 238, 239, 0.823); /* Not totally white. */
-        color: rgb(33, 33, 35);  /* Not totally black. */
+        background-color: rgba(255, 255, 255); /* Not totally white. */
+        color: rgb(255, 255, 255);  /* Not totally black. */
         line-height: 140%; 	/* A little extra leading. */
         font-family: sans-serif;
     }
