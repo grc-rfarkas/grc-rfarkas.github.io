@@ -9,7 +9,7 @@ img {
  h1 {
         background-color: rgb(240, 141, 52);
         color: rgb(255, 255, 255,); /* Same as body background. */
-        font-size: 3em;
+        font-size: 2.5em;
         padding: 3rem 2rem 1rem; /* You want three values. */
         font-family: Sutro, serif;  
         font-weight: 700;  
