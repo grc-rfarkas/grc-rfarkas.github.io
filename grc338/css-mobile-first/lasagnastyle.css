@@ -6,6 +6,13 @@ img {
     width: 100%; /*Please leave this line.*/
 }
 
+body{
+    background-color: rgb(245, 245, 245);
+    color: rgb(10, 10, 10,); /* Same as body background. */
+    line-height: 140%
+    font-family: poppins, sans-serif
+}
+
  h1 {
         background-color: rgb(240, 141, 52);
         color: rgb(245, 245, 245,); /* Same as body background. */
@@ -77,7 +84,6 @@ img {
 
     footer {
         background-color: rgb(240, 141, 52)
-        padding: 1rem 2rem 2rem;
     }
         
 /*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
