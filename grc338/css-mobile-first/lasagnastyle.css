@@ -8,7 +8,7 @@ img {
 
 body {
 	background-color: rgb(255, 255, 255); /* Not totally white. */
-	color: rgb(0, 0, 0);  /* Not totally black. */
+	color: rgb(255, 255, 255);  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
 	font-family: sans-serif;
 }
