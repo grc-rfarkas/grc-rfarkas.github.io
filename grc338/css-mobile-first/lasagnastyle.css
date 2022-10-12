@@ -67,14 +67,17 @@ img {
         color: rgb(0, 0, 0);  /* Not totally black. */
         line-height: 140%; 	/* A little extra leading. */
         font-family: poppins, sans-serif;
+        margin: 1rem 1rem 1rem;
     }
     
     li { 
         margin: 1rem 1rem 1rem;
+        list-style-type:bullets
     }
 
     footer {
         background-color: rgb(240, 141, 52)
+        padding: 1rem 2rem 2rem;
     }
         
 /*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
