@@ -44,7 +44,7 @@ body{
     h3 {
         margin: 4rem 2rem 1rem; /*Three values again. You got the idea.*/
         padding-top: 1rem;
-        font-size: 1.5em;
+        font-size: 1.2em;
         color:rgb(240, 141, 52);
         font-weight: bold;
         text-transform: uppercase;
@@ -84,6 +84,10 @@ body{
 
     footer {
         background-color: rgb(240, 141, 52)
+        color: 255, 255, 255
+        font-family: poppins, sans-serif
+        font-size:1.5em
+
     }
         
 /*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
