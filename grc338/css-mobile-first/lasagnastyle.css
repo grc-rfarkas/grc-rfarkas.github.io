@@ -73,11 +73,14 @@ body{
         margin: 1rem 1rem 1rem;
     }
 
+    li{
+        margin: 1em 1em 1em
+    }
     footer {
         background-color: rgb(240, 141, 52);
         color: rgb(255, 255, 255);
         font-size:1.5em;
-        padding 1rem, 2rem, 1rem;
+        padding: 1rem 2rem 1rem;
 
     }
         
