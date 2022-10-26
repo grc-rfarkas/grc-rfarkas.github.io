@@ -4,8 +4,8 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 img {
     width: 100%; /*Please leave this line.*/
-    grid-column: 6/7;
-    grid-row: 2;
+    grid-row: 5;
+    grid-column: auto;
 }
 
 body{
@@ -19,8 +19,8 @@ div.container {
     max-width: 50em;
     margin: auto;
     display: grid;
-    grid-template-columns: 5em auto 5em;
-    grid-template-rows: 3em auto 3em;
+    grid-template-columns: 5em 5em 5em;
+    grid-template-rows: 5em 5em 5em;
 
 }
 
