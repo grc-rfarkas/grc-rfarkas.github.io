@@ -4,7 +4,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 img {
     width: 100%; /*Please leave this line.*/
-    grid-column: 1/8;
+    grid-column: 1/3;
 }
 
 body{
