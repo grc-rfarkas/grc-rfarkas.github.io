@@ -20,7 +20,7 @@ body{
 img {
     width: 100%; /*Please leave this line.*/
     grid-column: 1/5;
-    grid-row: 5em;
+    grid-row: 8em;
 }
 
  header {
@@ -94,4 +94,3 @@ img {
         padding: 1rem 2rem 1rem;
 
     }
-        
