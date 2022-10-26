@@ -19,14 +19,14 @@ footer{
 
 main{
     display: grid;
-    grid-column: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 2rem;
 }
 
 
 figure{
     display: grid;
-    grid-column: 1/3;
+    grid-template-columns: 1/3;
 }
 
 img {
