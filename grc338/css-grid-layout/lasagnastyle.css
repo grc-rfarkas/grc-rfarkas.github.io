@@ -15,11 +15,11 @@ body{
 }
 
 div.container {
-    max-width: 50em;
-    margin: auto;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 5em auto 3em;
+    max-width: 60em;
+    margin: 0 auto;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: repeat (3, 1fr);
 }
 
  h1 {
@@ -43,6 +43,7 @@ div.container {
     }
     figcaption {
         color: rgb(0, 0, 0); 
+        grid-column: 6/8;
         font-size: 1em;
         padding: 1rem 2rem 1rem; 
         font-family: poppins, sans-serif;  
@@ -92,4 +93,3 @@ div.container {
         padding: 1rem 2rem 1rem;
 
     }
-        
