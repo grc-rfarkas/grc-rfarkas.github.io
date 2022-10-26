@@ -20,7 +20,6 @@ div.container {
     max-width: 60em;
     margin: 0 auto;
     grid-template-columns: repeat(2 1fr);
-    grid-template-rows: repeat (3, 1fr);
 }
 
  h1 {
@@ -94,3 +93,4 @@ div.container {
         padding: 1rem 2rem 1rem;
 
     }
+        
