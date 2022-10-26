@@ -30,7 +30,7 @@ figure{
 img {
     display: grid;
     grid-colum:1/2;
-    width: 80%;
+    max-width: 60em;
 }
 
 figcaption{
