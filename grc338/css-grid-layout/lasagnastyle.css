@@ -5,7 +5,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 div.container {
     display: grid;
-    max-width: 60em;
+    max-width: 75em;
     margin: auto;
     grid-template-columns: 50em 25em;
 }
@@ -23,7 +23,7 @@ img {
     grid-row: 5em;
 }
 
- h1 {
+ header {
         background-color: rgb(240, 141, 52);
         color: rgb(255, 255, 255); 
         font-size: 2.5em;
@@ -44,8 +44,7 @@ img {
     }
     figcaption {
         color: rgb(0, 0, 0); 
-        grid-column: 5/8;
-        grid-row: 5em;
+        grid-column: 6/8;
         font-size: 1em;
         padding: 1rem 2rem 1rem; 
         font-family: poppins, sans-serif;  
