@@ -22,7 +22,7 @@ main{
 
 figure{
     display: grid;
-    grid-column: 50em auto 3em;
+    grid-column: 5em auto 3em;
 }
 
 img {
@@ -114,5 +114,3 @@ body{
         padding: 1rem 2rem 1rem;
 
     }
-        
-        
