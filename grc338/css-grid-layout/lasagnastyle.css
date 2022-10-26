@@ -23,7 +23,7 @@ img {
     grid-row: 5em;
 }
 
- h1 {
+ header {
         background-color: rgb(240, 141, 52);
         color: rgb(255, 255, 255); 
         font-size: 2.5em;
