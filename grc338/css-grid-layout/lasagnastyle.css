@@ -38,6 +38,10 @@ figcaption{
     grid-column: 2/3;
 }
 
+h3{
+    display: grid;
+    grid-column: 3/3;
+}
 
 body{
     background-color: rgb(255, 255, 255);
@@ -116,5 +120,4 @@ body{
         padding: 1rem 2rem 1rem;
 
     }
-        
         
