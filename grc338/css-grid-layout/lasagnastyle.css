@@ -4,7 +4,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 
 div.container {
-    max-width: 75em;
+    max-width: 50em;
     margin: auto;
     color: rgb(232, 232, 232); 
 }
