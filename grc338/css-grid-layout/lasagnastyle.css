@@ -4,10 +4,21 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 
 div.container {
-    display: grid;
     max-width: 75em;
     margin: auto;
-    grid-template-columns: 50em 25em;
+}
+
+header{
+    grid-column: 1/3;
+}
+
+footer{
+    grid-column:1/3;
+}
+
+figure{
+    display: grid;
+    grid-column: 50em auto 30em;
 }
 
 body{
