@@ -15,7 +15,7 @@ body{
 
 div.container {
     display: grid;
-    max-width: 50em;
+    max-width: 60em;
     margin: 0 auto;
     grid-template-columns: repeat(2 1fr);
     grid-template-rows: repeat (3, 1fr);
