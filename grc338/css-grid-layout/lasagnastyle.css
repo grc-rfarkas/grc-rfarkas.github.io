@@ -4,7 +4,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 
 div.container {
-    max-width: 50em;
+    max-width: 75em;
     margin: auto;
     color: rgb(232, 232, 232); 
 }
@@ -45,7 +45,7 @@ body{
     font-family: poppins, sans-serif;
 }
 
- header {
+ h1 {
         background-color: rgb(240, 141, 52);
         color: rgb(255, 255, 255); 
         font-size: 2.5em;
