@@ -13,7 +13,9 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0,); 
     line-height: 140%;
-    font-family: poppins, sans-serif;
+    font-family: crayonette-djr, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 div.container {
@@ -22,76 +24,39 @@ div.container {
     display: grid;
     grid-template-columns: 5em 5em 5em;
     grid-template-rows: 5em 5em 5em;
-
 }
 
  h1 {
-        background-color: rgb(240, 141, 52);
-        color: rgb(255, 255, 255); 
-        font-size: 2.5em;
         padding: 3rem 2rem 1rem; 
-        font-family: Sutro, serif;  
-        font-weight: 700;  
-        font-style: normal;
     }
 
     h2 {
-        background-color: rgb(240, 141, 52);
-        color: rgb(245, 245, 245);
+        background-color: rgb(245, 245, 245);
+        color: #242a60;
         font-size: 2em;
         padding: 0rem 2rem 2rem;
-        font-family: Sutro, serif;  
-        font-weight: 300;  
+        font-family: crayonette-djr, sans-serif;
+        font-weight: 300;
         font-style: normal;
-    }
-    figcaption {
-        color: rgb(0, 0, 0); 
-        font-size: 1em;
-        padding: 1rem 2rem 1rem; 
-        font-family: poppins, sans-serif;  
-        font-weight: 400;  
-        font-style: italic;
     }
     
     h3 {
         margin: 4rem 2rem 1rem; 
         padding-top: 0.5rem;
         font-size: 1.2em;
-        color:rgb(240, 141, 52);
-        font-weight: bold;
-        text-transform: uppercase;
-        font-family: Sutro, serif;  
-        font-weight: 300;  
+        color: #242a60;
+        font-family: crayonette-djr, sans-serif;
+        font-weight: 500;
         font-style: normal;
         letter-spacing: 0.1em; 
     }
 
-    ul {
-        counter-reset: css-counters 0; /* intializes counter, set -1 for zero-based counters */
-        line-height: 140%; 	
-        font-family: sans-serif;
-        margin: 1rem 1rem 1rem;
-        background-color: rgba(255, 255, 255); 
-	    color: rgb(0, 0, 0); 
-	    line-height: 140%;
-	    font-family: poppins, sans-serif;
-      }
-
-    ol {
-        background-color: rgba(255, 255, 255); 
-        color: rgb(0, 0, 0); 
-        line-height: 140%; 
-        font-family: poppins, sans-serif;
-        margin: 1rem 1rem 1rem;
-    }
-
-    li{
-        margin: 1em 1em 1em
-    }
     footer {
-        background-color: rgb(240, 141, 52);
-        color: rgb(255, 255, 255);
+        background-color: #242a60;
+        color: rgb(245, 245, 245);
         font-size:1em;
         padding: 1rem 2rem 1rem;
-
+        font-family: lust, serif;
+    font-weight: 700;
+    font-style: normal;
     }
