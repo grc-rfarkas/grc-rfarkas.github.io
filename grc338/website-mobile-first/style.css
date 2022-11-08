@@ -16,12 +16,13 @@ div.container {
     max-width: 50em;
     margin: auto;
     display: grid;
-    grid-template-columns: 5em 5em 5em;
-    grid-template-rows: 5em 5em 5em;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5em auto 3em;
 }
 
  h1 {
-        padding: 3rem 2rem 1rem; 
+        display: grid;
+        grid-column: 1/3;
     }
 
     h2 {
@@ -32,6 +33,8 @@ div.container {
         font-family: crayonette-djr, sans-serif;
         font-weight: 300;
         font-style: normal;
+        grid-column: 1/3;
+        grid-row: 1/2;
     }
     
     h3 {
@@ -43,6 +46,8 @@ div.container {
         font-weight: 500;
         font-style: normal;
         letter-spacing: 0.1em; 
+        grid-column: 2/3;
+        grid-row: 1/2;
     }
 
     h4 {
@@ -53,6 +58,8 @@ div.container {
         font-family: lust, serif;
         font-weight: 700;
         font-style: normal;
+        grid-column: 2/3;
+        grid-row: 2/3;
     }
 
 
@@ -64,4 +71,17 @@ div.container {
         font-family: lust, serif;
         font-weight: 700;
         font-style: normal;
+        grid-column:1/3;
+    }
+
+    @media screen and (min-width: 40em) {
+        div.container {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 5em auto 3em;  
+        }
+
+        header, footer {
+            grid-column: 1/3;
+        }
     }
