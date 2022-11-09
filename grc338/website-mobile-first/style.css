@@ -76,11 +76,18 @@ body{
         font-style: normal;
     }
 
+    p.address {
+        font-size: 1em;
+        font-family: lust, serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
     footer {
         background-color: #242a60;
         color: rgb(245, 245, 245);
         font-size:1em;
-        padding: 4rem 2rem 0.5rem;
+        margin: 2rem 2rem 0.5rem;
         font-family: lust, serif;
         font-weight: 700;
         font-style: normal;
