@@ -81,6 +81,9 @@ body{
         font-family: lust, serif;
         font-weight: 700;
         font-style: normal;
-        text-decoration: none;
     }
 
+a[href="tel"] {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+}
