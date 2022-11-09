@@ -10,9 +10,8 @@ img {
 }
 
 nav {
-    display: inline
+    display: inline;
     color: #242a60;
-    text-align: center;
     text-decoration: none;
 }
 
@@ -22,6 +21,7 @@ color: #111;
 
 body{
     color: rgb(0, 0, 0,); 
+    background-color: aliceblue;
     line-height: 140%;
     font-family: crayonette-djr, sans-serif;
     font-weight: 400;
@@ -74,7 +74,5 @@ body{
         font-weight: 700;
         font-style: normal;
     }
-
-
 
 
