@@ -35,9 +35,7 @@ body{
         font-family: crayonette-djr, sans-serif;
         font-weight: 300;
         font-style: normal;
-        border-top-width: 0.1rem; 
-	    border-top-style: solid;
-	    border-top-color: rgb(0, 0, 0);
+        
     }
 
     p.welcome { 	
@@ -69,6 +67,15 @@ body{
         font-style: normal;
     }
 
+    ul {
+        margin: 1rem 1rem 1rem;
+    }
+    
+    li { 
+        margin: 1rem 1rem 1rem;
+        list-style:none
+    }
+
     footer {
         background-color: #242a60;
         color: rgb(245, 245, 245);
@@ -78,6 +85,5 @@ body{
         font-weight: 700;
         font-style: normal;
     }
-
 
 
