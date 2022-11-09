@@ -1,83 +1,69 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Shop</title>
-    </head>	
-    <body>
-        <div class="container">
-            <header>
-                <h1><a href="index.html"><img src="evileyelogo.png" alt="Evil Eye Coffee logo."></a></h1>
-                    <nav>
-                        <ul>
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="locations.html">Locations</a></li>
-                        </ul>
-                </nav>
-                <h2>Shop Now </h2>
-            </header>
-            <ul>
-                <li>
-                    <img src="bold.jpg" alt="Bold Coffee Packaging.">
-                    <h3>Evil Eye Bold Blend</h3>
-                    <h4>$18.75</h4>
-                    <p>dark chocolate, toasted almond, bold (dark roast)</p>
-                </li>     
-                <li>
-                    <img src="sleepyeye.jpg" alt="Sleepy Eye Coffee Packaging.">
-                    <h3>Sleepy Eye Decaf Blend</h3>
-                    <h4>$16.75</h4>
-                    <p>spiced citrus, brown sugar, dried fruit (medium roast)</p>
-                </li>    
-                <li>
-                    <img src="zen.jpg" alt="Evil Eye Zen Coffee Packaging.">
-                    <h3>Evil Eye Zen Blend</h3>
-                    <h4>$17.75</h4>
-                    <p>maple syrup, green apple, toasted almond (light-medium roast)</p>
-                </li>   
-                <li>
-                    <img src="sunshine.jpg" alt="Evil Eye Sunshine Coffee Packaging.">
-                    <h3>Evil Eye Sunshine Blend</h3>
-                    <h4>$17.75</h4>
-                    <p>raspberry, sweet cream, juniper (light-medium roast)</p>
-                </li>   
-                <li>
-                    <img src="vanilla.jpg" alt="Rose Vanilla Coffee Packaging.">
-                    <h3>Evil Eye Rose Vanilla Blend</h3>
-                    <h4>$17.75</h4>
-                    <p>pink rose petals and pure Madagascar vanilla (light roast)</p>
-                </li> 
-                <li>
-                    <img src="holiday.jpg" alt="Holiday Blend Coffee Packaging.">
-                    <h3>Evil Eye Holiday Blend</h3>
-                    <h4>$19.75</h4>
-                    <p>chocolate cherry, pear, and candied-pecan, to create a cup of cheer (dark roast)</p>
-                </li> 
-                <li>
-                    <img src="greeneye.jpg" alt="Green Eye Matcha Packaging.">
-                    <h3>Green Eye Matcha Tea</h3>
-                    <h4>$21.75</h4>
-                    <p>freshly shade-grown and cold-processed in Uji, Japan</p>
-                </li>  
-                <li>
-                    <img src="honeylavender.jpg" alt="Honey Lavender Tea Packaging.">
-                    <h3>Honey Lavender Loose Leaf Tea</h3>
-                    <h4>$9.75</h4>
-                    <p>Lavender, Chamomile, and Lemon Balm with Organic Honey Flavor for a floral and lightly citrusy sweet blend</p>
-                </li>  
-                <li>
-                    <img src="earlgrey.jpg" alt="Earl Grey Tea Packaging.">
-                    <h3>Earl Grey Loose Leaf Tea</h3>
-                    <h4>$9.75</h4>
-                    <p>organic blend of black tea, essential Italian bergamot oil, and has a citrusy, floral, malty flavor</p>
-                </li>  
-            </ul>
-            <footer>
-                <p>Questions? Comments? Coffee? TEXT "EVILEYE" to 424-390-7496</p>
-            </footer>
-        </div>
-        </body>
-    </html>
+/*CSS DOCUMENT*/
+
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    max-width: 50%; /*Please leave this line.*/
+}
+
+body{
+    color: rgb(0, 0, 0,); 
+    line-height: 140%;
+    font-family: crayonette-djr, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ h1 {
+        width:50%; /* you can use % */
+        height: auto;
+    }
+
+    h2 {
+        color: #242a60;
+        font-size: 2em;
+        font-family: crayonette-djr, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    h2 span { 	
+        font-family: lust, serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    h3 {
+        margin: 4rem 2rem 1rem; 
+        padding-top: 0.5rem;
+        font-size: 1.2em;
+        color: #242a60;
+        font-family: crayonette-djr, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 0.1em; 
+    }
+
+    h4 {
+        margin: 4rem 2rem 1rem; 
+        padding-top: 0.5rem;
+        font-size: 1.2em;
+        color: #242a60;
+        font-family: lust, serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+
+    footer {
+        background-color: #242a60;
+        color: rgb(245, 245, 245);
+        font-size:1em;
+        padding: 1rem 2rem 1rem;
+        font-family: lust, serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+
