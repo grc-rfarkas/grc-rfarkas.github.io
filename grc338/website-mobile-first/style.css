@@ -21,7 +21,7 @@ color: #111;
 
 body{
     color: #242a60;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
  h1 {
@@ -50,6 +50,9 @@ body{
     li { 
         margin: 1rem 1rem 1rem;
         list-style:none
+        font-family: crayonette-djr, sans-serif;
+        font-weight: 500;
+        font-style: normal;
     }
 
     h3 {
@@ -83,7 +86,3 @@ body{
         font-style: normal;
     }
 
-a[href="tel"] {
-    color: rgb(245, 245, 245);
-    text-decoration: none;
-}
