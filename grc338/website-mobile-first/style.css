@@ -35,12 +35,12 @@ body{
         font-family: crayonette-djr, sans-serif;
         font-weight: 300;
         font-style: normal;
-        border-top-width: 0.2rem; 
+        border-top-width: 0.1rem; 
 	    border-top-style: solid;
-	    border-top-color: rgb(170, 28, 28);
+	    border-top-color: rgb(0, 0, 0);
     }
 
-    h2 span { 	
+    p.welcome { 	
         font-family: lust, serif;
         font-weight: 700;
         font-style: normal;
