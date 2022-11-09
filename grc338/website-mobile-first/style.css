@@ -5,15 +5,14 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 
 nav {
-    display:block
-    color: white
+    display: inline
+    color: #242a60;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-background-color: #111;
+color: #111;
 }
 
 body{
@@ -70,5 +69,4 @@ body{
         font-weight: 700;
         font-style: normal;
     }
-
 
