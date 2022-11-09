@@ -35,6 +35,9 @@ body{
         font-family: crayonette-djr, sans-serif;
         font-weight: 300;
         font-style: normal;
+        border-top-width: 0.2rem; 
+	    border-top-style: solid;
+	    border-top-color: rgb(170, 28, 28);
     }
 
     h2 span { 	
@@ -53,10 +56,14 @@ body{
         font-style: normal;
     }
 
-    h4 {
+    p.price {
+        font-size: 2em;
+        font-family: lust, serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+    p.description {
         font-size: 1em;
-        margin: 4rem 2rem 0rem; 
-        padding-top: 1em;
         font-family: lust, serif;
         font-weight: 700;
         font-style: normal;
