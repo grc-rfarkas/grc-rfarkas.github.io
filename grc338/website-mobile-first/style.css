@@ -45,25 +45,21 @@ body{
     }
 
     h3 {
+        font-size: 2em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    li {
         margin: 4rem 2rem 0rem; 
         padding-top: 1em;
-        font-size: 2em;
         color: #242a60;
         font-family: crayonette-djr, sans-serif;
         font-weight: 500;
         font-style: normal;
     }
-
-    h4 {
-        margin: 4rem 2rem 0rem; 
-        padding-top: 1eem;
-        font-size: 1.2em;
-        color: #242a60;
-        font-family: lust, serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
 
     footer {
         background-color: #242a60;
