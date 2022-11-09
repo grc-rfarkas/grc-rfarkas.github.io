@@ -7,6 +7,18 @@ img {
     max-width: 50%; /*Please leave this line.*/
 }
 
+nav {
+    display:block
+    color: white
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+
 body{
     color: rgb(0, 0, 0,); 
     line-height: 140%;
@@ -65,5 +77,6 @@ body{
         font-weight: 700;
         font-style: normal;
     }
+
 
 
