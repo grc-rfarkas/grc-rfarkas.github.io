@@ -7,11 +7,11 @@ img {
 	width: 100%;
     height: auto;
 	display: block;
+    padding-top: 1rem;
 }
 
 header {
-    padding: 1.5em 2em 1em 1em;
-    margin: 0rem 0rem 0.5rem;
+    padding: 1.5em 2em 1em;
     display: inline-block;
     color: #2e2056;
     text-decoration: none;
@@ -77,15 +77,17 @@ body{
         font-family: ligurino-condensed, sans-serif;
         font-weight: 400;
         font-style: normal;
+        padding: 0.5em 0.5em 0.5em;
     }
 
     footer {
-        background-color: #ffffff;
-        color: rgb(0, 0, 0);
-        font-size:1em;
-        padding: 2rem 2rem 0 rem;
+        background-color: #2e2056;
+        color: rgb(255, 255, 255);
+        font-size:0.5em;
+        padding: 2rem 2rem 2rem;
         font-family: ligurino, sans-serif;
         font-weight: 400;
         font-style: normal;
     }
+
 
