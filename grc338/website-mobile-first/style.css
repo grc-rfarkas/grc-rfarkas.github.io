@@ -9,10 +9,16 @@ img {
 	display: block;
 }
 
-nav {
-    display: inline;
+header {
+    padding: 1.5em 2em 1em 1em;
+    margin: 0rem 0rem 0.5rem;
+    display: inline-block;
     color: #242a60;
     text-decoration: none;
+    font-family: ligurino, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal;
 }
 
 li a:hover {
@@ -36,7 +42,8 @@ body{
         font-family: crayonette-djr, sans-serif;
         font-weight: 300;
         font-style: normal;
-        margin: 0rem 0rem 0.5rem;
+        padding-top: 0.5em;
+        text-align: center;
         
     }
 
@@ -90,4 +97,3 @@ body{
         font-weight: 400;
         font-style: normal;
     }
-
