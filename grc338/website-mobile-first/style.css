@@ -28,6 +28,7 @@ color: #111;
 body{
     color: #242a60;
     background-color: rgb(255, 255, 255);
+    text-align:center;
 }
 
  h1 {
@@ -48,8 +49,8 @@ body{
     }
 
     p.welcome { 	
-        font-family: lust, serif;
-        font-weight: 700;
+        font-family: ligurino, sans-serif;
+        font-weight: 200;
         font-style: normal;
         font-size: 1em;
         padding: 0rem 1rem 0.5rem;
@@ -97,3 +98,4 @@ body{
         font-weight: 400;
         font-style: normal;
     }
+
