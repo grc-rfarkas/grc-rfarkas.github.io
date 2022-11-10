@@ -13,7 +13,7 @@ header {
     padding: 1.5em 2em 1em 1em;
     margin: 0rem 0rem 0.5rem;
     display: inline-block;
-    color: #ced1f0;
+    color: #2e2056;
     text-decoration: none;
     font-family: ligurino, sans-serif;
     font-weight: 400;
@@ -23,12 +23,12 @@ header {
 }
 
 li a:hover {
-color: rgb(228, 223, 255);
+color: rgb(105, 69, 120);
 }
 
 body{
-    color: #ffffff;
-    background-color: rgb(0, 0, 0);
+    color: #2e2056;
+    background-color: rgb(243, 243, 243);
     align-content: center;
 }
 
