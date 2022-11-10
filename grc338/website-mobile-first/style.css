@@ -83,13 +83,6 @@ body{
         font-style: normal;
     }
 
-    p.address {
-        font-size: 1em;
-        font-family: ligurino-condensed, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
     footer {
         background-color: #242a60;
         color: rgb(245, 245, 245);
