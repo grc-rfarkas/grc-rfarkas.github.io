@@ -7,7 +7,6 @@ img {
 	width: 90%;
     height: auto;
 	display: block;
-    align-content: center;
 }
 
 header {
@@ -29,7 +28,7 @@ color: #111;
 body{
     color: #242a60;
     background-color: rgb(255, 255, 255);
-    text-align:center;
+    align-content: center;
 }
 
  h1 {
