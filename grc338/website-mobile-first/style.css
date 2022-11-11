@@ -11,7 +11,7 @@ img {
 }
 
 nav {
-    padding: 1em 1em 3em;
+    padding: 1em 1em 1em;
     background-color: #2e2056;
 }
 
@@ -50,6 +50,7 @@ body{
         width:50%; /* you can use % */
         height: auto;
         align-content: center;
+        padding left: 1em;
     }
 
     h2 {
