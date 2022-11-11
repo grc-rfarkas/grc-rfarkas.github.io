@@ -5,9 +5,9 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 img {
 	width: 100%;
-    height: auto;
+   	height: auto;
 	display: block;
-    padding: 1rem 0rem 1rem;
+   	padding: 1rem 0rem 1rem;
 }
 
 nav {
@@ -92,7 +92,7 @@ body{
         font-family: ligurino-condensed, sans-serif;
         font-weight: 400;
         font-style: normal;
-        padding: 0.5em 0.5em 0.5em;
+        padding: 1em 0.5em 0.5em;
     }
 
     footer {
@@ -105,3 +105,4 @@ body{
         font-weight: 400;
         font-style: normal;
     }
+
