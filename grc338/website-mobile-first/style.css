@@ -12,14 +12,11 @@ img {
 
 nav {
     padding: 1em 1em 3em;
-    width: 100%;
-    background-color: rgb(223, 220, 244);
 }
 
 nav ul li {
     display: inline-block;
     list-style: none;
-    text-align: center;
     text-decoration: none;
     font-family: ligurino, sans-serif;
     font-weight: 400;
@@ -31,6 +28,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    text-align: center;
     color: #2e2056;
 }
 
