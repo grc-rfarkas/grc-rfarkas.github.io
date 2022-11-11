@@ -13,11 +13,10 @@ img {
 nav {
     margin: 0rem 0rem 0.5rem;
     padding: 1rem 1rem 3rem;
-    display: block;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
     align-content: center;
     color: #2e2056;
