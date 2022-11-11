@@ -24,7 +24,11 @@ nav ul li {
     font-size: 1rem;
     font-style: normal;
     text-transform: uppercase;
-    margin: 1rem 1rem 0.5rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
 nav ul li a {
