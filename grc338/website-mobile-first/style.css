@@ -11,17 +11,15 @@ img {
 }
 
 nav {
-    display: block;
+    display: inline;
     align-content: center;
     list-style-type: none;
     margin: 0rem 0rem 0.5rem;
     padding: 1rem 1rem 3rem;
     font-size: 1.5rem;
-    text-align: center;
 }
 
 nav ul li {
-    display: inline;
     color: #2e2056;
     text-decoration: none;
     font-family: ligurino, sans-serif;
@@ -99,6 +97,4 @@ body{
         font-weight: 400;
         font-style: normal;
     }
-
-
 
