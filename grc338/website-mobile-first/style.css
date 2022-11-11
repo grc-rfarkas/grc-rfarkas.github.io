@@ -7,11 +7,12 @@ img {
 	width: 100%;
     height: auto;
 	display: block;
-    padding: 1rem 1rem 1rem;
+    padding: 1rem 0rem 1rem;
 }
 
 nav {
     padding: 1em 1em 3em;
+    background-color: #2e2056;
 }
 
 nav ul li {
@@ -28,7 +29,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #2e2056;
+    color: #ffffff;
 }
 
 li a:hover {
@@ -101,3 +102,4 @@ body{
         font-weight: 400;
         font-style: normal;
     }
+
