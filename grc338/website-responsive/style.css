@@ -24,11 +24,10 @@ nav ul li {
     font-size: 1rem;
     font-style: normal;
     text-transform: uppercase;
-    margin-block-start: 1em;
+    margin-block-start: 0em;
     margin-block-end: 1em;
     margin-inline-start: 0em;
     margin-inline-end: 0em;
-    padding-inline-start: 4em;
 }
 
 nav ul li a {
@@ -97,7 +96,7 @@ body{
         background-color: #2e2056;
         color: rgb(255, 255, 255);
         font-size:1em;
-        padding: 3rem 0rem 1rem;
+        padding: 3rem 1rem 1rem;
         font-family: ligurino, sans-serif;
         font-weight: 400;
         font-style: normal;
