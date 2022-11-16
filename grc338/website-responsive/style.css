@@ -10,15 +10,33 @@ img {
     padding: 1rem 0rem 1rem;
 }
 
-div.container {
+.grid {
     display: grid;
-    grid-template-columns: repeat (4,1fr);
-    grid-template-rows: repeat (3,1fr);
-    max-width: 0em;
-    padding: 4% 2%;
-    margin: auto;
-    height: 100%;
-  }
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: 30% 200px auto;
+    grid-gap: 1em;
+    }
+    
+    .grid > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+header,
+ul,
+footer {
+background: lightgray;
+padding: 1em;
+}
+
+header, footer {
+grid-column: 1 / 4;
+}
+
+ul {
+min-width: 15em;
+}
 
 nav {
     padding: 1em 1em 1em;
@@ -112,4 +130,3 @@ body{
         font-weight: 400;
         font-style: normal;
     }
-       
