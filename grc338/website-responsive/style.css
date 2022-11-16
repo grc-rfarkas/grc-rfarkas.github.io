@@ -103,15 +103,17 @@ body{
         font-style: normal;
     }
 
-    .container {
-        max-width: 40em;
+    div.container {
+        display: grid;
+        grid-template-columns: repeat (4,1fr);
+        grid-template-rows: repeat (3,1fr);
+        max-width: 60em;
         padding: 4% 2%;
-        margin: 0 auto;
-        box-sizing: border-box;
+        margin: auto;
         height: 100%;
       }
       
-      .box {
+      .brentwood {
         flex: 1;
         overflow: hidden;
         transition: .5s;
@@ -120,14 +122,14 @@ body{
         line-height: 0;
       }
       
-      .box > img {
+      .brentwood > img {
         width: 200%;
         height: calc(100% - 10vh);
         object-fit: cover; 
         transition: .5s;
       }
       
-      .box > span {
+      .brentwood > span {
         font-size: 3.8vh;
         display: block;
         text-align: center;
@@ -135,9 +137,10 @@ body{
         line-height: 2.6;
       }
       
-      .box:hover { flex: 1 1 50%; }
+      .brentwood:hover { flex: 1 1 50%; }
       .box:hover > img {
         width: 100%;
         height: 100%;
       }
+       
        
