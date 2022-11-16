@@ -109,6 +109,22 @@ body{
 
     div.location{
         display: grid;
-        grid-template-columns: 25% 15% 18% auto;
-        grid-template-rows: 30em 12em auto;
+        grid-template-columns: repeat (2,1fr);
+        grid-template-rows: repeat (3,1fr);
+    }
+
+    .brentwood{
+        grid-column:1,2;
+    }
+
+    .silverlake{
+        grid-column:3,4;
+    }
+
+    .sanfrancisco{
+        grid-column:5,6;
+    }
+
+    .malibu{
+        grid-column:7,8;
     }
