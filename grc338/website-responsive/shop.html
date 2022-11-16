@@ -1,83 +1,132 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="format-detection" content="telephone=no">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" href="https://use.typekit.net/obc6akv.css">
-        <title>Shop</title>
-    </head>	
-    <body>
-            <header>
-                <h1><a href="index.html"><img src="evileyelogo.svg" alt="Evil Eye Coffee logo."></a></h1>
-                    <nav>
-                        <ul>
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="locations.html">Locations</a></li>
-                        </ul>
-                </nav>
-            </header>
-            <h2>Shop Now </h2>
-            <ul>
-                <li>
-                    <img src="bold.jpg" alt="Bold Coffee Packaging.">
-                    <h3>Evil Eye Bold Blend</h3>
-                    <p class ="description">dark chocolate, toasted almond, bold (dark roast)</p>
-                    <p class ="price">$18.75</p>
-                </li>     
-                <li>
-                    <img src="sleepyeye.jpg" alt="Sleepy Eye Coffee Packaging.">
-                    <h3>Sleepy Eye Decaf Blend</h3>
-                    <p class ="description">spiced citrus, brown sugar, dried fruit (medium roast)</p>
-                    <p class ="price">$16.75</p>
-                </li>    
-                <li>
-                    <img src="zen.jpg" alt="Evil Eye Zen Coffee Packaging.">
-                    <h3>Evil Eye Zen Blend</h3>
-                    <p class ="description">maple syrup, green apple, toasted almond (light-medium roast)</p>
-                    <p class ="price">$17.75</p>
-                </li>   
-                <li>
-                    <img src="sunshine.jpg" alt="Evil Eye Sunshine Coffee Packaging.">
-                    <h3>Evil Eye Sunshine Blend</h3>
-                    <p class ="description">raspberry, sweet cream, juniper (light-medium roast)</p>
-                    <p class ="price">$17.75</p>
-                </li>   
-                <li>
-                    <img src="vanilla.jpg" alt="Rose Vanilla Coffee Packaging.">
-                    <h3>Evil Eye Rose Vanilla Blend</h3>
-                    <p class ="description">pink rose petals and pure Madagascar vanilla (light roast)</p>
-                    <p class ="price">$17.75</p>
-                </li> 
-                <li>
-                    <img src="holiday.jpg" alt="Holiday Blend Coffee Packaging.">
-                    <h3>Evil Eye Holiday Blend</h3>
-                    <p class ="description">chocolate cherry, pear, and candied-pecan, to create a cup of cheer (dark roast)</p>
-                    <p class ="price">$19.75</p>
-                </li> 
-                <li>
-                    <img src="greeneye.jpg" alt="Green Eye Matcha Packaging.">
-                    <h3>Green Eye Matcha Tea</h3>
-                    <p class ="description">freshly shade-grown and cold-processed in Uji, Japan</p>
-                    <p class ="price">$21.75</p>
-                </li>  
-                <li>
-                    <img src="honeylavender.jpg" alt="Honey Lavender Tea Packaging.">
-                    <h3>Honey Lavender Loose Leaf Tea</h3>
-                    <p class ="description">Lavender, Chamomile, and Lemon Balm with Organic Honey Flavor for a floral and lightly citrusy sweet blend</p>
-                    <p class ="price">$9.75</p>
-                </li>  
-                <li>
-                    <img src="earlgrey.jpg" alt="Earl Grey Tea Packaging.">
-                    <h3>Earl Grey Loose Leaf Tea</h3>
-                    <p class ="description">organic blend of black tea, essential Italian bergamot oil, and has a citrusy, floral, malty flavor</p>
-                    <p class ="price">$9.75</p>
-                </li>  
-            </ul>
-            <footer>
-                <p>Questions? Text "evileye" to 424-390-7496</p>
-            </footer>
-        </body>
-    </html>
+/*CSS DOCUMENT*/
+
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+	width: 100%;
+    height: auto;
+	display: block;
+    padding: 1rem 0rem 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: 30% 200px auto;
+    grid-gap: 1em;
+    }
+    
+    .grid > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+header,
+ul,
+footer {
+background: lightgray;
+padding: 1em;
+}
+
+header, footer {
+grid-column: 1 / 4;
+}
+
+ul {
+min-width: 15em;
+}
+
+nav {
+    padding: 1em 1em 1em;
+    background-color: #2e2056;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-family: ligurino, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+    padding-inline-start: 4em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li a:hover {
+color: rgb(105, 69, 120);
+}
+
+body{
+    color: #2e2056;
+    background-color: rgb(243, 243, 243);
+}
+
+ h1 {
+        width:10%; 
+        height: auto;
+        padding: 0em 1em 0em;
+    }
+
+    h2 {
+        font-size: 3em;
+        font-family: crayonette-djr, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 0.5em;
+    }
+
+    p.welcome { 	
+        font-family: ligurino, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1em;
+        padding: 0rem 1rem 0.5rem;
+    }
+
+    li { 
+        margin: 1rem 1rem 1rem;
+        list-style:none;
+    }
+
+    h3 {
+        font-size: 2em;
+        font-family: ligurino, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    p.price {
+        font-size: 1em;
+        font-family: ligurino, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    p.description {
+        font-size: 1em;
+        font-family: ligurino-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 1em 0em 0.5em;
+    }
+
+    footer {
+        background-color: #2e2056;
+        color: rgb(255, 255, 255);
+        font-size:1em;
+        padding: 3rem 0rem 1rem;
+        font-family: ligurino, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
