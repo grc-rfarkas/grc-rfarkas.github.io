@@ -1,0 +1,143 @@
+/*CSS DOCUMENT*/
+
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+	width: 100%;
+    height: auto;
+	display: block;
+    padding: 1rem 0rem 1rem;
+}
+
+nav {
+    padding: 1em 1em 1em;
+    background-color: #2e2056;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-family: ligurino, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+    padding-inline-start: 4em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li a:hover {
+color: rgb(105, 69, 120);
+}
+
+body{
+    color: #2e2056;
+    background-color: rgb(243, 243, 243);
+}
+
+ h1 {
+        width:10%; 
+        height: auto;
+        padding: 0em 1em 0em;
+    }
+
+    h2 {
+        font-size: 3em;
+        font-family: crayonette-djr, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: 0.5em;
+    }
+
+    p.welcome { 	
+        font-family: ligurino, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1em;
+        padding: 0rem 1rem 0.5rem;
+    }
+
+    li { 
+        margin: 1rem 1rem 1rem;
+        list-style:none;
+    }
+
+    h3 {
+        font-size: 2em;
+        font-family: ligurino, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    p.price {
+        font-size: 1em;
+        font-family: ligurino, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    p.description {
+        font-size: 1em;
+        font-family: ligurino-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 1em 0em 0.5em;
+    }
+
+    footer {
+        background-color: #2e2056;
+        color: rgb(255, 255, 255);
+        font-size:1em;
+        padding: 3rem 0rem 1rem;
+        font-family: ligurino, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        padding: 4% 2%;
+        box-sizing: border-box;
+        height: 100vh;
+      }
+      
+      .box {
+        flex: 1;
+        overflow: hidden;
+        transition: .5s;
+        margin: 0 2%;
+        box-shadow: 0 20px 30px rgba(0,0,0,.1);
+        line-height: 0;
+      }
+      
+      .box > img {
+        width: 200%;
+        height: calc(100% - 10vh);
+        object-fit: cover; 
+        transition: .5s;
+      }
+      
+      .box > span {
+        font-size: 3.8vh;
+        display: block;
+        text-align: center;
+        height: 10vh;
+        line-height: 2.6;
+      }
+      
+      .box:hover { flex: 1 1 50%; }
+      .box:hover > img {
+        width: 100%;
+        height: 100%;
+      }
+       
