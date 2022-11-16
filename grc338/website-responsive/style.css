@@ -101,3 +101,8 @@ body{
         font-weight: 400;
         font-style: normal;
     }
+
+    .brentwood_photo, .malibu_photo, .sanfrancisco_photo, .silverlake_photo{
+        width:100%;
+        max-height: auto;
+    }
