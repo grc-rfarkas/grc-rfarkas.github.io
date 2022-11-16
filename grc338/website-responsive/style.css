@@ -106,3 +106,9 @@ body{
         width:100%;
         max-height: auto;
     }
+
+    div.location{
+        display: grid;
+        grid-template-columns: 25% 15% 18% auto;
+        grid-template-rows: 30em 12em auto;
+    }
