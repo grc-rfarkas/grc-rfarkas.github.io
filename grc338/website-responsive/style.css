@@ -92,17 +92,7 @@ body{
         font-family: ligurino-condensed, sans-serif;
         font-weight: 400;
         font-style: normal;
-        padding: 1em 0em 0.5em;
-    }
-
-    footer {
-        background-color: #2e2056;
-        color: rgb(255, 255, 255);
-        font-size:1em;
-        padding: 3rem 1rem 1rem;
-        font-family: ligurino, sans-serif;
-        font-weight: 400;
-        font-style: normal;
+        padding: 1em 0em 0em;
     }
 
     .brentwood_photo, .malibu_photo, .sanfrancisco_photo, .silverlake_photo{
@@ -129,4 +119,9 @@ body{
         grid-row:1/2;
         margin-left:auto;
         align-items:right;
+        }
+
+        .honeylavender_photo, .greeneye_photo, .earlgrey_photo, .sunshine_photo, .vanilla_photo, .holiday_photo, .zen_photo, .sleepyeye_photo, .bold_photo{
+        width:50%;
+        max-height: auto;
         }
