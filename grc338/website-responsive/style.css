@@ -96,8 +96,8 @@ body{
     }
 
     .brentwood_photo, .malibu_photo, .sanfrancisco_photo, .silverlake_photo{
-        width:50%;
-        max-height: auto;
+        width: auto;
+        max-height: 50%;
     }
 
     @media screen and (min-width:75rem) {
@@ -122,6 +122,6 @@ body{
         }
 
         .honeylavender_photo, .greeneye_photo, .earlgrey_photo, .sunshine_photo, .vanilla_photo, .holiday_photo, .zen_photo, .sleepyeye_photo, .bold_photo{
-        width:50%;
-        max-height: auto;
+        width: auto;
+        max-height: 50%;
         }
