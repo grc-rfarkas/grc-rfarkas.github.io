@@ -95,11 +95,6 @@ body{
         padding: 1em 0em 0em;
     }
 
-    .brentwood_photo, .malibu_photo, .sanfrancisco_photo, .silverlake_photo{
-        width: auto;
-        max-height: 50%;
-    }
-
     .home_photo{
         grid-column:1/2;
         background-color:#ffffff;
@@ -111,6 +106,7 @@ body{
         grid-row:1/2;
         grid-column:1/2;
         margin-left:auto;
+        align-content: left;
         }
 
         @media screen and (min-width: 100em) {
@@ -123,5 +119,4 @@ body{
                 grid-template-columns: auto;
             }
         }
-
 
