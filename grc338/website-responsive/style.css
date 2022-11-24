@@ -100,25 +100,28 @@ body{
         max-height: 50%;
     }
 
-    @media screen and (min-width:75rem) {
-        main{
-            display:grid;
-            grid-template-columns: repeat(2,auto);
-            margin-left:15%;
-            margin-right:15%;
-        }
-
-        .home_photo{
-            grid-column:1/2;
-            background-color:#ffffff;
-            max-height:30em;
-        }
-
-        li img{
+    .home_photo{
+        grid-column:1/2;
+        background-color:#ffffff;
+        max-height:30em;
+    }
+    
+    li img{
         max-width:17em;
         grid-row:1/2;
         grid-column:1/2;
         margin-left:auto;
+        }
+
+        @media screen and (min-width: 100em) {
+            figure {
+                display: grid;
+                grid-template-columns: auto;
+            }
+            main {
+                display: grid;
+                grid-template-columns: auto;
+            }
         }
 
 
