@@ -24,7 +24,7 @@ nav ul li {
     font-size: 1rem;
     font-style: normal;
     text-transform: uppercase;
-    text-align: center;
+    align-content: center;
     margin-block-start: 0em;
     margin-block-end: 1em;
     margin-inline-start: 0em;
