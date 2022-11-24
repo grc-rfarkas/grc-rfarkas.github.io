@@ -7,7 +7,7 @@ img {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
     padding: 1rem 0rem 1rem;
 }
 
@@ -119,4 +119,5 @@ body{
                 grid-template-columns: auto;
             }
         }
+
 
