@@ -101,7 +101,7 @@ body{
         max-height:30em;
     }
     
-    li img{
+   .sleepyeye_photo, .zen_photo, .sunshine_photo, .vanilla_photo, .holiday_photo, .greeneye_photo, .honeylavender_photo, .earlgrey_photo{
         max-width:17em;
         grid-row:1/2;
         margin-left:auto;
