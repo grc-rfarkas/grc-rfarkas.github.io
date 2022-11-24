@@ -14,7 +14,7 @@ img {
 nav {
     padding: 1em 1em 0em;
     text-align: center;
-    border-style: solid;
+    border: 1em;
     border-color:#2e2056;
 }
 
@@ -118,6 +118,4 @@ body{
                 grid-template-columns: auto;
             }
         }
-
-
 
