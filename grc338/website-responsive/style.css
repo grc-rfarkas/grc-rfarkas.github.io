@@ -14,7 +14,7 @@ img {
 nav {
     padding: 1em 1em 0em;
     background-color: #2e2056;
-    align-content: center;
+    text-align: center;
 }
 
 nav ul li {
@@ -29,7 +29,7 @@ nav ul li {
     margin-block-end: 1em;
     margin-inline-start: 0em;
     margin-inline-end: 0em;
-    letter-spacing:0.01em;
+    letter-spacing:0.05em;
 }
 
 nav ul li a {
@@ -48,7 +48,7 @@ body{
 }
 
      h1 {
-        width:20%; 
+        width:11%; 
         height: auto;
         padding: 0em 1em 0em;
     }
@@ -104,6 +104,7 @@ body{
    .sleepyeye_photo, .zen_photo, .sunshine_photo, .vanilla_photo, .holiday_photo, .greeneye_photo, .honeylavender_photo, .earlgrey_photo{
         max-width:17em;
         grid-row:1/2;
+        grid-column: 1/2;
         margin-left:auto;
         align-content: left;
         }
@@ -118,5 +119,6 @@ body{
                 grid-template-columns: auto;
             }
         }
+
 
 
