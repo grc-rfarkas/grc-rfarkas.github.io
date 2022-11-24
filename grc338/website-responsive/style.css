@@ -13,7 +13,6 @@ img {
 
 nav {
     padding: 1em 1em 0em;
-    background-color: #2e2056;
     text-align: center;
 }
 
@@ -34,7 +33,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #2e2056;
 }
 
 li a:hover {
@@ -101,7 +100,7 @@ body{
         max-height:30em;
     }
     
-   .sleepyeye_photo, .zen_photo, .sunshine_photo, .vanilla_photo, .holiday_photo, .greeneye_photo, .honeylavender_photo, .earlgrey_photo{
+   .bold_photo, .sleepyeye_photo, .zen_photo, .sunshine_photo, .vanilla_photo, .holiday_photo, .greeneye_photo, .honeylavender_photo, .earlgrey_photo{
         max-width:17em;
         grid-row:1/2;
         grid-column: 1/2;
