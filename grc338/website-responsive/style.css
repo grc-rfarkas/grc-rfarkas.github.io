@@ -13,7 +13,6 @@ img {
 
 nav {
     padding: 1em 1em 0em;
-    text-align: center;
     border: 1em;
     border-color:#2e2056;
 }
@@ -22,14 +21,12 @@ nav ul li {
     display: inline-block;
     list-style: none;
     font-family: ligurino, sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 200;
     font-style: normal;
     text-transform: uppercase;
-    margin-block-start: 0em;
-    margin-block-end: 1em;
-    margin-inline-start: 0em;
-    margin-inline-end: 0em;
+    margin: 0 0 0.5rem;
+    padding: 1rem 0.5rem 0;
+    font-size: 1.5rem;
     letter-spacing:0.05em;
 }
 
@@ -52,6 +49,7 @@ body{
         width:11%; 
         height: auto;
         padding: 0em 1em 0em;
+        align-content: center;
     }
 
     h2 {
@@ -118,4 +116,3 @@ body{
                 grid-template-columns: auto;
             }
         }
-
