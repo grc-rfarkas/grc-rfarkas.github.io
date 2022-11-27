@@ -13,9 +13,9 @@ img {
 
 nav {
     padding: 1em 1em 0em;
-    border: 1em;
-    border-color:#2e2056;
     align-items: left;
+    border: .15rem solid #2e2056;
+    border-width:.15rem 0;
 }
 
 nav ul li {
