@@ -98,7 +98,7 @@ body{
     
    .bold_photo, .sleepyeye_photo, .zen_photo, .sunshine_photo, .vanilla_photo, .holiday_photo, .greeneye_photo, .honeylavender_photo, .earlgrey_photo{
         max-width:17rem;
-        align-items: left;
+        grid-column:1;
         }
 
         @media screen and (min-width: 100rem) {
@@ -111,5 +111,4 @@ body{
                 grid-template-columns: auto;
             }
         }
-
 
