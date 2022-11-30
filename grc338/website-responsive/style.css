@@ -42,10 +42,11 @@ body{
     color: #2e2056;
     background-color: rgb(243, 243, 243);
     padding: 0em 1em 0em;
+    max-width: 50rem;
 }
 
      h1 {
-        width:11%; 
+        width:10rem; 
         height: auto;
         padding: 0em 1em 0em;
     }
@@ -96,9 +97,8 @@ body{
         grid-column:1/2;
     }
     
-   .bold_photo, .sleepyeye_photo, .zen_photo, .sunshine_photo, .vanilla_photo, .holiday_photo, .greeneye_photo, .honeylavender_photo, .earlgrey_photo{
+   .product_photo{
         max-width:20rem;
-        grid-column:1;
         }
 
         @media screen and (min-width: 100rem) {
