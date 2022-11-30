@@ -14,7 +14,7 @@ nav {
     align-items: left;
     border: .15rem solid #2e2056;
     border-width:.15rem 0;
-    max-width: 40rem;
+    max-width: 50rem;
 }
 
 nav ul li {
@@ -112,5 +112,4 @@ body{
                 grid-template-columns: auto;
             }
         }
-
 
