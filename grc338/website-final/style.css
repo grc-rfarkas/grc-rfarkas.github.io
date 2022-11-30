@@ -41,7 +41,7 @@ color: rgb(105, 69, 120);
 
 body{
     color: #2e2056;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(223, 221, 232);
     padding: 0em 1em 0em;
     max-width: 50rem;
 }
@@ -112,4 +112,5 @@ body{
                 grid-template-columns: auto;
             }
         }
+
 
