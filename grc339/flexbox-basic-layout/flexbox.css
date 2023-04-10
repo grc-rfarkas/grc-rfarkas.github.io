@@ -9,7 +9,7 @@ body {
 	}
 	
 div.container {
-        display: 1em ;
+        display: flex ;
         flex-wrap: wrap ;
         max-width: 60em;
         margin: 1em;
