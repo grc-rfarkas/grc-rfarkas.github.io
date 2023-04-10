@@ -17,16 +17,16 @@ div.container {
 }
 
 header {
-    flex: 1 2 100% ;
+    flex: 1em 2em 100% ;
 }
 
 article {
-    flex: 1 1 10em ;
+    flex: 1em 0em 10em ;
     margin-right: 1em;
 }
 
 aside {
-    flex: 2 2 20em ;
+    flex: 2em 2em 20em ;
 }
 
 footer {
