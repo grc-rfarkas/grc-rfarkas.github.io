@@ -17,20 +17,20 @@ div.container {
 }
 
 header {
-    flex: 1em 2em 100% ;
+    flex: 1 0 100% ;
 }
 
 article {
-    flex: 0em 0em 5em ;
+    flex: 2 0 20em ;
     margin-right: 1em;
 }
 
 aside {
-    flex: 0em 0em 10em ;
+    flex: 1 0 10em ;
 }
 
 footer {
-    flex: 100% 0 100% ;
+    flex: 1 0 100% ;
     border-top: solid 1px #aaa;
     margin-top: 2em;
 }
