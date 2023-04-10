@@ -30,7 +30,7 @@ aside {
 }
 
 footer {
-    flex: 1 0 100% ;
+    flex: 100% 0 100% ;
     border-top: solid 1px #aaa;
     margin-top: 2em;
 }
