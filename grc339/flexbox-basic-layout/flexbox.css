@@ -17,11 +17,11 @@ div.container {
 }
 
 header {
-    flex: 1 0 100% ;
+    flex: 1 2 100% ;
 }
 
 article {
-    flex: 2 0 30em ;
+    flex: 2 3 30em ;
     margin-right: 1em;
 }
 
