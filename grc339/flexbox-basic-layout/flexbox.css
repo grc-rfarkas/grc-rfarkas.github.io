@@ -10,7 +10,7 @@ body {
 	
 div.container {
         display: 1em ;
-        flex-wrap: 2 wrap ;
+        flex-wrap: wrap ;
         max-width: 60em;
         margin: 1em;
         padding: 1em;
@@ -21,16 +21,16 @@ header {
 }
 
 article {
-    flex: 2em ;
+    flex: 1em ;
     margin-right: 1em;
 }
 
 aside {
-    flex: 2em ;
+    flex: 1em ;
 }
 
 footer {
-    flex: 2em ;
+    flex: 1em ;
     border-top: solid 1px #aaa;
     margin-top: 2em;
 }
