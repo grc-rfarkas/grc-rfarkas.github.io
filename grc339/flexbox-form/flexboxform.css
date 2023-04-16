@@ -12,6 +12,7 @@ div.container {
         max-width: 40em;
         margin: 1em;
         padding 1em;
+		align-content: center;
 }
 
 header {
