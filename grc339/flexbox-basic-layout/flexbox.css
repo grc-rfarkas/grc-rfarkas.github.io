@@ -9,54 +9,64 @@ body {
 	}
 	
 div.container {
-        max-width: 40em;
+        display: flex ;
+        flex-wrap: wrap ;
+        max-width: 60em;
         margin: 1em;
-        padding 1em;
+        padding: 1em;
 }
 
 header {
-	padding-top: 1em;
+    flex: 100% ;
+}
+
+article {
+    flex: 30em ;
+    margin-right: 1em;
+}
+
+aside {
+    flex: 15em ;
+}
+
+footer {
+    flex: 100% ;
+    border-top: solid 1px #aaa;
+    margin-top: 2em;
+}
+
+a {
+	text-decoration: none;
 }
 
 
-section.personal-info ul li {
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 1em;
+section a {
+	color: #222;
 }
 
-section.personal-info ul li input[type="text"],
-section ul li input[type="email"],
-section ul li input[type="tel"],
-section ul li select {
-	flex: 10em;
-	box-sizing: border-box;
+footer a {
+	color: #444;
 }
 
-section.personal-info ul li label {
-	flex: 100%;
-}
-
-section.order ul, section.method ul {
-	display: flex;
-	flex-wrap: wrap;
+img {
+	width: 100%;
 	}
 
-section.order ul li , section.method ul li {
-	flex: 10em;
-	}
-	
-	
+h1, h2 {
+	margin-top: 2em;
+}
+
 h3 {
-	margin: 2em 0 0;
+	margin-bottom: 0;
 	}
 
-ul {
-	padding: 0;
-	list-style-type: none;
+figure {
+	margin: 0;
 	}
 	
-
+ol {
+	padding: 0
+	}
 	
 section {
     background: #eee;
@@ -68,22 +78,10 @@ section p {
 	margin-top: 0;
 }
 
-textarea {
-	box-sizing: border-box;
-	display: flex;
-	width: 100%;
-	height: 6em;
-	background: #fcfcfc;
-	border: 1px solid #e8e8e8;
-	padding: 0.4em;
-	font-family: sans-serif;
-	color: #777;
-	}
-
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 60em) {
 
   div.container {
-    margin: 0.5em;
+    margin: 0.5em ;
   }
 
 }
