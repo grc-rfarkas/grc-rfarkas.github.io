@@ -6,7 +6,6 @@ body {
 	color: #222;
 	background-color: #fafafa;
 	box-sizing: border-box;
-	align-items: center;
 	}
 	
 div.container {
@@ -76,7 +75,7 @@ textarea {
 	width: 100%;
 	height: 6em;
 	background: #fcfcfc;
-	border: 1px solid #e8e8e8;
+	border: 0 pxsolid #e8e8e8;
 	padding: 0.4em;
 	font-family: sans-serif;
 	color: #777;
