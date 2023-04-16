@@ -12,7 +12,7 @@ div.container {
         max-width: 40em;
         margin: 1em;
         padding 1em;
-		align-content: center;
+		align: center;
 }
 
 header {
@@ -31,8 +31,7 @@ section ul li input[type="email"],
 section ul li input[type="tel"],
 section ul li select {
 	flex: 10em;
-	box-sizing: border-box
-	border: none;
+	box-sizing: border-box;
 }
 
 section.personal-info ul li label {
