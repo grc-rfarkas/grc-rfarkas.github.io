@@ -6,6 +6,7 @@ body {
 	color: #222;
 	background-color: #fafafa;
 	box-sizing: border-box;
+	align-items: center;
 	}
 	
 div.container {
@@ -85,7 +86,6 @@ textarea {
 
   div.container {
     margin: 1em;
-	align:center
   }
 
 }
