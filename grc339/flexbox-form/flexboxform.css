@@ -20,8 +20,8 @@ header {
 
 
 section.personal-info ul li {
-	display: _____;
-	flex-wrap: _____;
+	display: flex;
+	flex-wrap: wrap;
 	margin-bottom: 1em;
 }
 
@@ -29,21 +29,21 @@ section.personal-info ul li input[type="text"],
 section ul li input[type="email"],
 section ul li input[type="tel"],
 section ul li select {
-	flex: _____;
+	flex: 10em;
 	box-sizing: border-box;
 }
 
 section.personal-info ul li label {
-	flex: _____;
+	flex: 100%;
 }
 
 section.order ul, section.method ul {
-	display: _____;
-	flex-wrap: _____;
+	display: flex;
+	flex-wrap: wrap;
 	}
 
 section.order ul li , section.method ul li {
-	flex: _____;
+	flex: 10em;
 	}
 	
 	
@@ -70,8 +70,8 @@ section p {
 
 textarea {
 	box-sizing: border-box;
-	display: _____;
-	width: _____;
+	display: flex;
+	width: 100%;
 	height: 6em;
 	background: #fcfcfc;
 	border: 1px solid #e8e8e8;
@@ -83,7 +83,7 @@ textarea {
 @media only screen and (min-width: 40em) {
 
   div.container {
-    margin: _____;
+    margin: 0.5em;
   }
 
 }
