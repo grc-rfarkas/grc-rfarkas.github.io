@@ -1,0 +1,89 @@
+/*CSS DOCUMENT*/
+
+body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	color: #222;
+	background-color: #fafafa;
+	box-sizing: border-box;
+	}
+	
+div.container {
+        max-width: 40em;
+        margin: 1em;
+        padding 1em;
+}
+
+header {
+	padding-top: 1em;
+}
+
+
+section.personal-info ul li {
+	display: _____;
+	flex-wrap: _____;
+	margin-bottom: 1em;
+}
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select {
+	flex: _____;
+	box-sizing: border-box;
+}
+
+section.personal-info ul li label {
+	flex: _____;
+}
+
+section.order ul, section.method ul {
+	display: _____;
+	flex-wrap: _____;
+	}
+
+section.order ul li , section.method ul li {
+	flex: _____;
+	}
+	
+	
+h3 {
+	margin: 2em 0 0;
+	}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+	}
+	
+
+	
+section {
+    background: #eee;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+section p {
+	margin-top: 0;
+}
+
+textarea {
+	box-sizing: border-box;
+	display: _____;
+	width: _____;
+	height: 6em;
+	background: #fcfcfc;
+	border: 1px solid #e8e8e8;
+	padding: 0.4em;
+	font-family: sans-serif;
+	color: #777;
+	}
+
+@media only screen and (min-width: 40em) {
+
+  div.container {
+    margin: _____;
+  }
+
+}
