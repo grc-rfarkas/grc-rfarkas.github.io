@@ -40,11 +40,12 @@ section.personal-info ul li label {
 }
 
 section.order ul, section.method ul {
+	display: flex;
 	flex-wrap: wrap;
 	}
 
 section.order ul li , section.method ul li {
-	flex: 10em;
+	flex: 1 0 15em;
 	}
 	
 	
@@ -53,7 +54,7 @@ h3 {
 	}
 
 ul {
-	padding: 0px;
+	padding: 0;
 	list-style-type: none;
 	margin-block-start: 1em;
     margin-block-end: 1em;
