@@ -31,16 +31,15 @@ section.personal-info ul li input[type="text"],
 section ul li input[type="email"],
 section ul li input[type="tel"],
 section ul li select {
-	flex: 2 0 30em;
+	flex: 1 0 25em;
 	box-sizing: border-box;
 }
 
 section.personal-info ul li label {
-	flex: 80%;
+	flex: 4 0 10em;
 }
 
 section.order ul, section.method ul {
-	display: block;
 	flex-wrap: wrap;
 	}
 
@@ -54,9 +53,8 @@ h3 {
 	}
 
 ul {
-	padding: 0;
+	padding: 1px 2px;
 	list-style-type: none;
-	border:none;
 	}
 	
 
@@ -91,4 +89,5 @@ textarea {
 	
   }
 
+}
 }
