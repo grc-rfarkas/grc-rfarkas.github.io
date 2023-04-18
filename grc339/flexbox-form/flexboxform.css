@@ -68,6 +68,7 @@ section {
 	border-color: #eee;
     padding: 1em;
     margin-bottom: 1em;
+	display: block;
 }
 
 section p {
