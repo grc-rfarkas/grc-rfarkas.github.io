@@ -57,13 +57,12 @@ ul {
 	list-style-type: none;
 	}
 	
-
-	
 section {
     background: #eee;
 	border-color: #eee;
     padding: 1em;
     margin-bottom: 1em;
+	display: block;
 }
 
 section p {
