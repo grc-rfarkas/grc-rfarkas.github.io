@@ -36,7 +36,7 @@ main {
 
 figure{
     margin: 0;
-    width: calc(100%-2em);
+    width: 33%;
     position: absolute;
     opacity: 0;
     transition: left 2s, opacity 1s;
@@ -59,9 +59,8 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4){
 
 nav {
     display: flex;
-    flex-wrap: wrap;
-    grid-template-columns: ______;
-    grid-gap: ______;
+    grid-template-columns: 60px auto;
+    grid-gap: 1em;
 }
 
 
