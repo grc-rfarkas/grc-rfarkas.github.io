@@ -39,7 +39,7 @@ figure{
     width: calc(100%-2em);
     position: absolute;
     opacity: 0;
-    transition: opacity 1s;
+    transition: opacity 0.5s;
 }
 
 figcaption {
@@ -60,7 +60,7 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4){
 nav {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 0.5em;
+    grid-gap: 0.2em;
 }
 
 
