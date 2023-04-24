@@ -29,17 +29,17 @@ div.container {
 
 
 main {
-    position: ______;
-    overflow: ______;
+    position: absolute;
+    overflow: hidden;
     padding-bottom: calc(72% + 3em);
 }
 
 figure{
     margin: 0;
     width: calc(100%-2em);
-    position: ______;
-    opacity: ______;
-    transition: ______ ___;
+    position: absolute;
+    opacity: 0;
+    transition: left 2s, opacity 1s;
 }
 
 figcaption {
@@ -54,16 +54,17 @@ input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
 input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
 input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
 input:nth-of-type(4):checked ~ main figure:nth-of-type(4){
-    opacity: ______;
+    opacity: 1;
 }
 
 nav {
-    display: ______;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: ______;
     grid-gap: ______;
 }
 
 
 input {
-    display: ______;
+    display: none;
 }
