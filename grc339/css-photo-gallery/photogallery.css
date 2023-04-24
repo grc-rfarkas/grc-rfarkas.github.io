@@ -60,7 +60,7 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4){
 nav {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 1em;
+    grid-gap: 0.5em;
 }
 
 
