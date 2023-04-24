@@ -39,7 +39,7 @@ figure{
     width: calc(100%-2em);
     position: absolute;
     opacity: 0;
-    transition: left 2s, opacity 1s;
+    transition: opacity 1s;
 }
 
 figcaption {
