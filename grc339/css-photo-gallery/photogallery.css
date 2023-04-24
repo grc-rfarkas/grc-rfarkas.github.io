@@ -38,7 +38,7 @@ figure{
     margin: 0;
     width: 33%;
     position: absolute;
-    opacity: 0;
+    opacity: 1;
     transition: left 2s, opacity 1s;
 }
 
@@ -65,5 +65,5 @@ nav {
 
 
 input {
-    display: none;
+    display: flex;
 }
