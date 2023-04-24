@@ -36,7 +36,7 @@ main {
 
 figure{
     margin: 0;
-    width: 33%;
+    width: calc(100%-2em);
     position: absolute;
     opacity: 0;
     transition: left 2s, opacity 1s;
