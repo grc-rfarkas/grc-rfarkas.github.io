@@ -51,7 +51,6 @@ h3 {
 }
 
 .navbar a {
-    float: left;
     text-align: center;
     padding: 12px;
     color: white;
@@ -67,5 +66,4 @@ p {
     font-style: normal;
     font-size: 14px;
 }
-
 
