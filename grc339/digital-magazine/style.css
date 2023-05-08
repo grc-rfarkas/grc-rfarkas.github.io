@@ -1,9 +1,6 @@
 /*CSS document*/
 
 body {
-    font-family: "owners", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 div.container {
@@ -54,7 +51,8 @@ h3 {
     font-size: 17px;
 }
 p{
-    font-family: "owners", sans-serif;
+    font-family: "owners-wide", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
