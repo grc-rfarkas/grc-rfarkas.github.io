@@ -1,6 +1,7 @@
 /*CSS document*/
 
 body {
+    text-decoration: none;
 }
 
 figcaption {
@@ -66,4 +67,5 @@ p {
     font-style: normal;
     font-size: 14px;
 }
+
 
