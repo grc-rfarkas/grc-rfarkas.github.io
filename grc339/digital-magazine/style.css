@@ -49,10 +49,15 @@ h3 {
     color: white;
     text-decoration: none;
     font-size: 17px;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: capitalize;
 }
-p{
+p {
     font-family: "owners-wide", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 
