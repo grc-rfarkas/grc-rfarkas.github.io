@@ -28,6 +28,17 @@ h1 {
     width:30%
 }
 
+h2 {
+    font-family: "operetta-12", serif;
+    font-weight: 700;
+    font-style: normal;   
+}
+
+h3 {
+    font-family: "operetta-18", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .navbar { 
   width: 100%;
   background-color: #555;
@@ -41,4 +52,9 @@ h1 {
     color: white;
     text-decoration: none;
     font-size: 17px;
+}
+p{
+    font-family: "owners", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
