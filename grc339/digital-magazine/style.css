@@ -48,10 +48,10 @@ h3 {
   width: 100%;
   background-color: #E26A5C;
   overflow: auto;
+  display: block;
 }
 
 .navbar a {
-    display: inline;
     color: white;
     text-decoration: none;
     font-size: 12px;
