@@ -58,6 +58,7 @@ h3 {
     font-weight: 500;
     font-style: normal;
     padding: 10px 10px;
+    display: block;
 }
 
 navbar li a{
@@ -87,4 +88,8 @@ footer {
 a {
     text-decoration: none;
     color: black;
+}
+
+li{
+    display: inline-block;
 }
