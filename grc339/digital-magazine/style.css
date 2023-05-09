@@ -51,13 +51,14 @@ h3 {
 }
 
 .navbar a {
-    display: block;
+    display: inline;
     color: white;
     text-decoration: none;
     font-size: 12px;
     font-family: "owners", sans-serif;
     font-weight: 500;
     font-style: normal;
+    padding: 10px 10px;
 }
 p {
     font-family: "owners-wide", sans-serif;
