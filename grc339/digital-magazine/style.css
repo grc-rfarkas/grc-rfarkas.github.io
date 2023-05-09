@@ -8,7 +8,7 @@ figcaption {
     font-family: "owners-wide", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 div.container {
@@ -68,7 +68,7 @@ p {
 }
 
 footer { 
-    max-width: 40em;
+    width: 100%;
     background-color: #E26A5C;
     overflow: auto;
     padding: 10px 10px;
