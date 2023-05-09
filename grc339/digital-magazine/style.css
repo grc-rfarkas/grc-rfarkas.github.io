@@ -48,11 +48,11 @@ h3 {
   width: 100%;
   background-color: #E26A5C;
   overflow: auto;
+  display: block;
 }
 
 .navbar a {
     text-align: center;
-    display: inline;
     padding: 12px 12px;
     color: white;
     text-decoration: none;
