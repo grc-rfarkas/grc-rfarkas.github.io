@@ -14,7 +14,7 @@ figcaption {
 div.container {
     max-width: 40em;
     margin: auto;
-    text-decoration: none;
+    
 }
 
 figure {
@@ -79,4 +79,8 @@ footer {
     font-family: "owners", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+.aside {
+    text-decoration: none;
 }
