@@ -14,6 +14,7 @@ figcaption {
 div.container {
     max-width: 40em;
     margin: auto;
+    text-decoration: none;
 }
 
 figure {
