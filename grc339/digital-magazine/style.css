@@ -14,7 +14,6 @@ figcaption {
 div.container {
     max-width: 40em;
     margin: auto;
-    display: block;
 }
 
 figure {
@@ -28,6 +27,7 @@ img {
 ul {
     list-style-type: none;
     padding: 0;
+    display: block;
 }
 
 h1 {
