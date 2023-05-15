@@ -94,6 +94,12 @@ li{
     display: inline-block;
 }
 
+main{ 
+    display: grid;
+    grid-column: 1/2;
+}
+
 aside{
+    display: grid;
     grid-column: 2/3;
 }
