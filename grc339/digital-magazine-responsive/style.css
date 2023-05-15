@@ -1,7 +1,7 @@
 /*CSS document*/
 
 body {
-    color: black;
+    color: #111111;
 }
 
 figcaption {
@@ -12,16 +12,25 @@ figcaption {
 }
 
 div.container {
-    max-width: 40em;
-    margin: auto;
+    max-width: 60em;
+    margin: 0 auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 figure {
     margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
 }
 
 img {
     width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 ul {
@@ -93,16 +102,24 @@ li{
 }
 
 main{ 
-    display: grid;
-    grid-column: 1/2;
+    display: block;
 }
 
 aside{
-    display: grid;
-    grid-column: 2/3;
+    display: block;
 }
 
 section{
     max-width: 40em;
     margin: 0 auto 3em;
+}
+
+@media only screen and (min-width: 60em)
+section.mainstory {
+    grid-column: 1/4;
+}
+
+@media only screen and (min-width: 60em)
+aside {
+    grid-column: 6/8;
 }
