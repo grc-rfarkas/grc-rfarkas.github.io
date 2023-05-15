@@ -35,11 +35,15 @@ img {
 
 ul {
     list-style-type: none;
-    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
 h1 {
-    width:30%
+    width:20%
 }
 
 h2 {
@@ -106,12 +110,16 @@ main{
 }
 
 aside{
-    display: block;
+    display: grid;
 }
 
 section{
     max-width: 40em;
     margin: 0 auto 3em;
+}
+
+.mainstory {
+    display: grid; 
 }
 
 @media only screen and (min-width: 60em)
