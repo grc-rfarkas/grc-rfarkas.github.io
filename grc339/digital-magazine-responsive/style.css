@@ -24,8 +24,6 @@ figure {
 
 img {
     width: 100%;
-    overflow-clip-margin: content-box;
-    overflow: clip;
 }
 
 ul {
@@ -141,9 +139,10 @@ section{
         flex: 0 0 auto;
         margin: 0;
     }
-    
+
     aside{
         grid-column: 2/3;
+        background-color: #E26A5C;
     }
 }
 
