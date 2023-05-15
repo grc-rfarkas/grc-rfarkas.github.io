@@ -1,0 +1,95 @@
+/*CSS document*/
+
+body {
+    color: black;
+}
+
+figcaption {
+    font-family: "owners-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    width:30%
+}
+
+h2 {
+    font-family: "operetta-12", serif;
+    font-weight: 700;
+    font-style: normal;   
+}
+
+h3 {
+    font-family: "operetta-18", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar { 
+  width: 100%;
+  background-color: #E26A5C;
+  overflow: auto;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px 10px;
+    display: block;
+}
+
+navbar li a{
+    display: inline;
+}
+
+p {
+    font-family: "owners-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+footer { 
+    width: 97%;
+    background-color: #E26A5C;
+    overflow: auto;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    display: inline-block;
+}
