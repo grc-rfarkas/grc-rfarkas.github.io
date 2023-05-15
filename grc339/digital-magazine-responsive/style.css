@@ -142,11 +142,8 @@ section{
     aside{
         grid-column: 2/3;
         background-color: #E26A5C;
+        grid-row:1/3;
+        color: #FFFFFF;
     }
 }
 
-p.story{
-    max-width: 40em;
-    display: grid;
-    grid-column:1/3
-} 
