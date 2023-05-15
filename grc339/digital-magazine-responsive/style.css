@@ -103,9 +103,12 @@ section{
     margin: 0 auto 3em;
 }
 
-section.tertiary{
+aside{
+    border-radius: 1em;
+    background-color: #E26A5C;
     color: #FFFFFF;
-    }
+    height: fit-content;
+}
 
 @media only screen and (min-width: 60em){
     div.container{ 
@@ -146,9 +149,6 @@ section.tertiary{
 
     aside{
         grid-column: 2/3;
-        background-color: #E26A5C;
-        max-height: 40em;
     }
 }
-
 
