@@ -8,7 +8,7 @@ figcaption {
     font-family: "owners-wide", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 div.container {
@@ -51,13 +51,13 @@ h3 {
 }
 
 .navbar a {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.75em;
     font-family: "owners", sans-serif;
     font-weight: 500;
     font-style: normal;
-    padding: 10px 10px;
+    padding: 70% 70%;
     display: block;
 }
 
@@ -69,17 +69,17 @@ p {
     font-family: "owners-wide", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 footer { 
     width: 97%;
     background-color: #E26A5C;
     overflow: auto;
-    padding: 10px;
-    color: white;
+    padding: 70%;
+    color: #FFFFFF;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.87em;
     font-family: "owners", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -87,9 +87,13 @@ footer {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #111111;
 }
 
 li{
     display: inline-block;
+}
+
+aside{
+    grid-column: 2/3;
 }
