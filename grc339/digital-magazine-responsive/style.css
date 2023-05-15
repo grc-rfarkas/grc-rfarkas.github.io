@@ -132,6 +132,14 @@ section.tertiary {
         flex: 1 0 18em;
     }
 
+    section.mainstory figure div{
+        flex: 1 0 18em;
+    }
+
+    section.mainstory figure div img{
+        height: 100%;
+    }
+
     section.mainstory h3{
         flex: 0 0 auto;
         margin: 0;
