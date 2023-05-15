@@ -131,3 +131,9 @@ section.mainstory {
 aside {
     grid-column: 6/8;
 }
+
+p.story{
+    max-width: 40em;
+    display: grid;
+    grid-column:1/3
+}
