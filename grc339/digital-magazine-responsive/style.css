@@ -28,11 +28,11 @@ img {
 
 ul {
     list-style-type: none;
-    margin-block-start: 1em;
+    margin-block-start: 0em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 1em;
+    padding-inline-start: 0em;
 }
 
 h1 {
@@ -150,6 +150,5 @@ section.tertiary{
         max-height: 40em;
     }
 }
-
 
 
