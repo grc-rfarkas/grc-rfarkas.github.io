@@ -30,6 +30,11 @@ img {
 
 ul {
     list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
 h1 {
@@ -65,8 +70,6 @@ h3 {
 
 .navbar li a{
     display: inline;
-    padding-inline-start: 0em;
-    margin: 0em;
 }
 
 p {
@@ -106,8 +109,8 @@ aside{
     padding: 1em 1.2em 1.2em;
 }
 
-section.mainstory figure {
-n
+.tertiary{
+    color:#FFFFFF;
 }
 
 
