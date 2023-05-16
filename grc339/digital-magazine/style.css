@@ -80,6 +80,8 @@ p {
 
 footer { 
     color: #E26A5C;
+    border-top: 2px solid #E26A5C;
+    margin-top: 0.3em;
     text-decoration: none;
     font-size: 0.9em;
     font-family: "owners", sans-serif;
@@ -109,8 +111,8 @@ aside{
 }
 
 .crop {
-    height: 10.5em;
-    width: 10em;
+    height: 20em;
+    width: 15em;
     overflow: hidden;
    }
    .crop img {
