@@ -58,7 +58,7 @@ h3 {
 }
 
 section.mainstory p{
-    width: 80%;
+    width: 70%;
 }
 
 .navbar a {
@@ -86,7 +86,7 @@ footer {
     color: #E26A5C;
     border-top: 2px solid #E26A5C;
     border-width: 100%
-    margin-top: 0.3em;
+    margin: 0.3em;
     text-decoration: none;
     font-size: 0.9em;
     font-family: "owners", sans-serif;
@@ -178,7 +178,7 @@ aside{
         grid-column: 2/3;
     }
 
-    section.seconday {
+    section.secondary {
         grid-column: 1/2;
     }
 
