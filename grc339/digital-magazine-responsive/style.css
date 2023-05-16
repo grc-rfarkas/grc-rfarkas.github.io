@@ -136,6 +136,7 @@ section.tertiary{
 
     section.mainstory figure {
         flex: 1 0 18em;
+        background-color: #ff0
     }
 
     section.mainstory h3{
