@@ -173,6 +173,10 @@ aside{
     opacity: 0;
    }
 
+   section.secondary figure div im{
+    margin: 0;
+   }
+
     section.mainstory h3{
         flex: 0 0 auto;
         margin: 0;
