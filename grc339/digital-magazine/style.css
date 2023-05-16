@@ -124,8 +124,8 @@ aside{
 }
 
 .crop {
-    height: 20em;
-    width: 15em;
+    height: 25em;
+    width: 20em;
     overflow: hidden;
    }
    .crop img {
