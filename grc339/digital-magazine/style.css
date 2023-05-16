@@ -30,8 +30,7 @@ img {
 
 ul {
     list-style-type: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 0em;
 }
 
 h1 {
