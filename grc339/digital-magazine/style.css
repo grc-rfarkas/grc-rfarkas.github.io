@@ -142,7 +142,6 @@ aside{
         background-image: url(willis.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-postition: center;
     }
 
    section.mainstory figure div img{
@@ -169,5 +168,9 @@ aside{
 
     section.seconday {
         grid-column: 1/2;
+    }
+
+    article{
+    flex: 1 0 15em;
     }
 }
