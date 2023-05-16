@@ -1,19 +1,21 @@
 /*CSS document*/
 
 body {
-    color: black;
+    color: #111111;
 }
 
 figcaption {
     font-family: "owners-wide", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 div.container {
-    max-width: 40em;
-    margin: auto;
+    max-width: 80em;
+    margin: 0 auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 figure {
@@ -22,15 +24,21 @@ figure {
 
 img {
     width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 ul {
     list-style-type: none;
-    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
 h1 {
-    width:30%
+    width:20%
 }
 
 h2 {
@@ -43,25 +51,24 @@ h3 {
     font-family: "operetta-18", serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
 }
 .navbar { 
   width: 100%;
-  background-color: #E26A5C;
   overflow: auto;
 }
 
 .navbar a {
-    color: white;
+    color: #E26A5C;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 1em;
     font-family: "owners", sans-serif;
     font-weight: 500;
     font-style: normal;
-    padding: 10px 10px;
     display: block;
 }
 
-navbar li a{
+.navbar li a{
     display: inline;
 }
 
@@ -69,17 +76,13 @@ p {
     font-family: "owners-wide", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
+    font-size: 0.87em;
 }
 
 footer { 
-    width: 97%;
-    background-color: #E26A5C;
-    overflow: auto;
-    padding: 10px;
-    color: white;
+    color: #E26A5C;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.9em;
     font-family: "owners", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -87,9 +90,86 @@ footer {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #111111;
 }
 
 li{
     display: inline-block;
+}
+
+section{
+    max-width: 40em;
+    margin: 0 auto 3em;
+}
+
+aside{
+    border-radius: 1em;
+    background-color: #E26A5C;
+    height: fit-content;
+    padding: 1em 1.2em 1.2em;
+}
+
+.tertiary{
+    color:#FFFFFF;
+}
+
+
+@media only screen and (min-width: 60em){
+    div.container{ 
+        display:grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 0 1em;
+    }
+    header{
+        grid-column: 1/3;
+    }
+
+    main{
+        grid-column:1/2;   
+        display: grid;
+        grid-template-columns: repeat (3,1fr);
+        grid-gap: 0 1em;
+    }
+    section.mainstory{
+        grid-column: 2/4;
+        grid-row: 1/3;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.mainstory figure {
+        flex: 1 0 18em;
+        background-color: #ff0
+    }
+
+    section.mainstory figure div{
+        flex: 1 0 18em;
+        background-image: url(willis.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-postition: center;
+    }
+
+   section.mainstory figure div img{
+    height: 100%;
+    opacity: 0;
+   }
+
+    section.mainstory h3{
+        flex: 0 0 auto;
+        margin: 0;
+    }
+
+    section.mainstory p{
+        flex: 0 0 auto;
+        margin: 0;
+    }
+
+    aside{
+        grid-column: 2/3;
+    }
+
+    section.seconday {
+        grid-column: 1/2;
+    }
 }
