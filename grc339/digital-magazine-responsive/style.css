@@ -77,12 +77,9 @@ p {
 }
 
 footer { 
-    width: 97%;
-    background-color: #E26A5C;
-    overflow: auto;
-    color: #FFFFFF;
+    color: #E26A5C;
     text-decoration: none;
-    font-size: 0.87em;
+    font-size: 0.9em;
     font-family: "owners", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -173,4 +170,3 @@ n
         grid-column: 1/2;
     }
 }
-
