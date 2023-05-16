@@ -142,6 +142,19 @@ n
         background-color: #ff0
     }
 
+    section.mainstory figure div{
+        flex: 1 0 18em;
+        background-image: url(willis.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-postition: center;
+    }
+
+   section.mainstory figure div img{
+    height: 100%;
+    opacity: 0;
+   }
+
     section.mainstory h3{
         flex: 0 0 auto;
         margin: 0;
@@ -154,6 +167,10 @@ n
 
     aside{
         grid-column: 2/3;
+    }
+
+    section.seconday {
+        grid-column: 1/2;
     }
 }
 
