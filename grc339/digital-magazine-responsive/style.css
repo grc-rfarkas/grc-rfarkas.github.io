@@ -102,12 +102,12 @@ section{
 aside{
     border-radius: 1em;
     background-color: #E26A5C;
-    color: #FFFFFF;
     height: fit-content;
-    margin-block-start: 0em;
-    margin-block-end: 1em;
-    margin-inline-start: 1em;
-    margin-inline-end: 0px;
+    padding: 1em 1.2em 1.2em;
+}
+
+section.tertiary{
+    color:#FFFFFF
 }
 
 @media only screen and (min-width: 60em){
