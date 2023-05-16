@@ -109,13 +109,13 @@ aside{
 }
 
 .crop {
-    height: 300px;
-    width: 250px;
+    height: 1.5em;
+    width: 1em;
     overflow: hidden;
    }
    .crop img {
     height: auto;
-    width: 250px;
+    width: 1em;
    }
 
 @media only screen and (min-width: 60em){
