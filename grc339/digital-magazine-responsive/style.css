@@ -49,6 +49,7 @@ h3 {
     font-family: "operetta-18", serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
 }
 .navbar { 
   width: 100%;
@@ -151,4 +152,3 @@ aside{
         grid-column: 2/3;
     }
 }
-
