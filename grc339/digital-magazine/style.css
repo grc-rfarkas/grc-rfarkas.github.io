@@ -24,13 +24,16 @@ figure {
 
 img {
     width: 100%;
-    overflow-clip-margin: content-box;
     overflow: clip;
 }
 
 ul {
     list-style-type: none;
-    margin-block-start: 0em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
 h1 {
@@ -107,12 +110,12 @@ aside{
 
 .crop {
     height: 300px;
-    width: 100px;
+    width: 200px;
     overflow: hidden;
    }
    .crop img {
     height: auto;
-    width: 100px;
+    width: 200px;
    }
 
 @media only screen and (min-width: 60em){
