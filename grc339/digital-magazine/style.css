@@ -172,5 +172,8 @@ aside{
 
     article{
     flex: 1 0 8em;
+    grid-column:1/3;   
+    display: grid;
+    grid-template-columns: repeat (3,1fr);
     }
 }
