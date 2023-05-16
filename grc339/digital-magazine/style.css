@@ -61,6 +61,14 @@ section.mainstory p{
     width: 70%;
 }
 
+p.story{
+    width: 70%;
+}
+
+article img{
+    width: 60%;
+}
+
 .navbar a {
     color: #E26A5C;
     text-decoration: none;
