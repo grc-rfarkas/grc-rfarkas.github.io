@@ -139,7 +139,6 @@ aside{
 
     section.mainstory figure {
         flex: 1 0 18em;
-        background-color: #ff0
     }
 
     section.mainstory figure div{
@@ -165,6 +164,9 @@ aside{
         margin: 0;
     }
 
+    section.secondary img{
+    max-height: 90%;
+}
     aside{
         grid-column: 2/3;
     }
