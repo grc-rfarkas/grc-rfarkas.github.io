@@ -58,8 +58,10 @@ h4 {
     font-family: "operetta-18", serif;
     font-weight: 400;
     font-style: normal;
-    margin: 3em;
+    margin: 3em 0em;
+    font-size: 1.5em;
 }
+
 .navbar { 
   width: 100%;
   overflow: auto;
