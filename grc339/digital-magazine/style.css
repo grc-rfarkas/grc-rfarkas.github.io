@@ -64,6 +64,7 @@ section.mainstory p{
 
 p.story{
     width: 70%;
+    padding-top: 1em;
 }
 
 article img{
