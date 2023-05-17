@@ -193,6 +193,7 @@ aside{
         grid-column: 2/3;
     }
 
+    
     article{
     grid-column:1/2;   
     display: grid;
