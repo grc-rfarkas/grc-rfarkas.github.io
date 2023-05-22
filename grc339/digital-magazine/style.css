@@ -259,3 +259,7 @@ label{
 input{
     display: none;
 }
+
+photos{
+    grid-column-start: 2/3;
+}
