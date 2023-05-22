@@ -134,6 +134,7 @@ aside{
     background-color: #f2c36b;
     height: fit-content;
     padding: 1em 1.2em 1.2em;
+    grid-column: 3/4;
 }
 
 .crop {
