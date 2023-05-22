@@ -210,61 +210,52 @@ aside{
     }
 }
 
-.gallery {
-	max-width: 70em;
-	margin: auto;
+figure.gallery{
+    width: calc(100% + 1em);
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
 }
 
-.gallery img {
-	width: 100%;
+main.gallery {
+    position: relative;
+    padding-bottom: calc(67% + 2.5em);
+    overflow: hidden;
+    margin-bottom: 1em;
+
 }
 
-.gallery h2 {
-	text-align: center;
-	padding-bottom: 1em;
+nav.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .4em;
+    row-gap: .1em;
 }
 
-.gallery main {
-	position: relative;
-	padding-bottom: calc(72% + 3em);
+figcaption {
+    font-family: davis-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #696a6d;
+    margin-top: 0.1em;
 }
 
-.gallery figure {
-	margin: 0;
-	width: 100%;
-	position: absolute;
-	opacity: 0;
-	transition: left 0.5s;
-	left: 100%;
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+    left: 0;
+    opacity: 1;
 }
 
-input:nth-of-type(1):checked~main figure:nth-of-type(1),
-input:nth-of-type(2):checked~main figure:nth-of-type(2),
-input:nth-of-type(3):checked~main figure:nth-of-type(3),
-input:nth-of-type(4):checked~main figure:nth-of-type(4),
-input:nth-of-type(5):checked~main figure:nth-of-type(5),
-input:nth-of-type(6):checked~main figure:nth-of-type(6),
-input:nth-of-type(7):checked~main figure:nth-of-type(7),
-input:nth-of-type(8):checked~main figure:nth-of-type(8),
-input:nth-of-type(9):checked~main figure:nth-of-type(9),
-input:nth-of-type(10):checked~main figure:nth-of-type(10),
-input:nth-of-type(11):checked~main figure:nth-of-type(11),
-input:nth-of-type(12):checked~main figure:nth-of-type(12) {
-	opacity: 1;
-	left: 0;
+label{
+    flex: 1 0 8em;
 }
 
-.gallery nav.gallery {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 0 0.5em;
-	padding-top: 2em;
-}
-
-.gallery input {
-	display: none;
-}
-
-.gallery label {
-	flex: 1 0 8em;
+input{
+    display: none;
 }
