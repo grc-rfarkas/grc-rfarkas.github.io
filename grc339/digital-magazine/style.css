@@ -247,7 +247,28 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
 input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
 input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
 input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
-input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(9),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(10),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(11),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(12),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(13)
+input:nth-of-type(8):checked ~ main figure:nth-of-type(14),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(15),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(16),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(17),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(18),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(19),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(20),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(21),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(22),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(23),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(24),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(25),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(26),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(27),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(28),
+
     left: 0;
     opacity: 1;
 }
@@ -263,3 +284,4 @@ input{
 photos{
     grid-column-start: 1/2;
 }
+
