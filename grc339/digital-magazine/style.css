@@ -25,6 +25,7 @@ figure {
 img {
     width: 100%;
     overflow: clip;
+    overflow-clip-margin: content-box;
 }
 
 ul {
@@ -211,7 +212,8 @@ aside{
 }
 
 figure.gallery{
-    width: calc(100% + 1em);
+    margin: 0;
+    width: calc(100%-2em);
     position: absolute;
     opacity: 0;
     transition: opacity 0.5s;
@@ -219,17 +221,15 @@ figure.gallery{
 
 main.gallery {
     position: relative;
-    padding-bottom: calc(67% + 2.5em);
     overflow: hidden;
-    margin-bottom: 1em;
+    padding-bottom: calc(72% + 3em);
 
 }
 
 nav.gallery{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: .4em;
-    row-gap: .1em;
+    grid-gap: 0.2em;
 }
 
 figcaption {
@@ -342,3 +342,7 @@ button {
 .subscribe h2 {
 	padding-bottom: 1em;
 }
+
+div.gallery-container {
+    max-width: 40em;
+    margin: auto;}
