@@ -292,39 +292,67 @@ div.photos{
 div.photos img{
     width: 10%;
 }
-
-form {
-	max-width: 50em;
-	margin: auto;
+input::placeholder {
+    font-family: davis-sans, sans-serif;
+    font-weight: 400;
+    font-size: 1.4em;
+    font-style: normal;
+    color: #696a6d;
 }
 
-form header {
-	padding: 2em 0em;
+.checkbox {
+    margin-top: 1em;
+    display: inline;
 }
 
-section.personal-info {
-	padding-bottom: 2em;
+.formButton:hover {
+    background-color: #f3b378;
+    color: #696a6d;
 }
 
-section.personal-info ul li {
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 1em;
-    padding: none;
-    margin-left: 0em;
+.newsletter img {
+    object-fit: cover;
+    max-width: 60em;
 }
 
-section.personal-info ul li input[type="text"],
-section ul li input[type="email"],
-section ul li select {
-	flex: 1 0 25em;
-	box-sizing: border-box;
+h2.newsletter{
+    font-family: dapifer,serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #f19f71;
+    margin-bottom: 1em;
 }
 
-section.personal-info ul li label {
-	flex: 0 0 4em;
+.formStyle {
+    display: block;
+    padding: 1.25em; 
+    width: 29em; 
+    margin-bottom: 1.25em; 
+    border-top-style: none; 
+    border-right-style: none; 
+    border-left-style: none;
+    font-family: davis-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #696a6d;
+   
+}
+.newsletter img {
+    height: 15em;
+    object-fit: cover;
+    max-width: 60em;
 }
 
+main.newsletter {
+    display: block;
+}   
+
+
+.formButton:active {
+    position:relative;
+    top:0.1875em;
+}
 button {
 	margin-top: 2em;
 }
