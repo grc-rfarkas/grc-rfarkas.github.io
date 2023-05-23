@@ -218,7 +218,7 @@ figure.gallery{
     width: calc(100% + 1em);
     position: absolute;
     opacity: 0;
-    transition: opacity 0.5s;
+    transition: opacity 1s;
 }
 
 main.gallery {
@@ -226,7 +226,6 @@ main.gallery {
     padding-bottom: calc(67% + 2.5em);
     overflow: hidden;
     margin-bottom: 1em;
-
 }
 
 nav.gallery{
