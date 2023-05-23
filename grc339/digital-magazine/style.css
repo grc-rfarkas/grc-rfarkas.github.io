@@ -201,7 +201,6 @@ aside{
 
     aside{
         grid-column: 2/3;
-        grid-row-start: 1;
     }
 
     
@@ -288,7 +287,6 @@ input{
 
 div.photos{
     grid-column-start: 1/2;
-    grid-row-start: 8;
 }
 
 div.photos img{
