@@ -37,31 +37,25 @@
         <h2> Subscribe to join the Jinx fam!</h2>
         <p>Join the 19,000 creatives to get a regular dose of inspiration, delivered to your inbox every Monday.</p>
         <h3> Personal information </h3>
-        <ul>
-        <li> <label for "name">Name:</label> <input type="text" name="name" id="name" placeholder="first and last name"/></li>
-        <li> <label for="email">Email:</label> <input type="email" placeholder="email address"/></li>
-        </ul>
-        <h3>What gets your creative juices flowing?</h3>
-        <ul>
-        <li> <input type="checkbox" id="editorial-photography" value="editorial-photography"> <label for ="editorial-photography">Editorial photography</label> </li>
-        <li> <input type="checkbox" id="product-photography" value="product-photography"> <label for ="product-photography">Product photography</label> </li>
-        <li> <input type="checkbox" id="photojournalism" value="photojournalism"> <label for ="photojournalism">Photojournalism</label> </li>
-        <li> <input type="checkbox" id="tips-and-tricks" value="tips-and-tricks"> <label for ="tips-and-tricks">Tips & tricks</label> </li>
-        <li> <input type="checkbox" id="resources" value="resources"> <label for ="resources">Resources</label> </li>
-        </ul>
-        <h3>How are you planning to get involved with the Jinx community?</h3>
-        <ul>
-        <li> <input type="checkbox" id="social-media" value="social-media"> <label for ="social-media">Following @jinxmag on socials</label> </li>
-        <li> <input type="checkbox" id="monthly-workshops" value="monthly-workshops"> <label for ="monthly-workshops">Attending monthly workshops in my area</label> </li>
-        <li> <input type="checkbox" id="q&a" value="q&a"> <label for ="q&a">Watching Jinx's exclusive Q&A sessions/label</label> </li>
-        <li> <input type="checkbox" id="sharing" value="sharing"> <label for ="tips-and-tricks">Sharing my photos with the Jinx community</label> </li>
-        </ul>
+        <div>
+        <form action="">
+            <input type="text" name="name" class="formStyle" placeholder="Name (required)" required />
+            <input type="email" name="email" class="formStyle" placeholder="Email (required)" required />
+            <div class="selection">
+                <input type="checkbox" id="recipes" name="recipes" class="checkbox" checked>
+                <label for="recipes">Recipes</label>
+            </div>
+            <div class="selection">
+                <input type="checkbox" id="events" name="events" class="checkbox" checked>
+                <label for="events">Event Planning</label>
+            </div>
+            <div class="selection">
+                <input type="checkbox" id="month" name="month" class="checkbox" checked>
+                <label for="month">Drink of the Month</label>
+            </div>
     <button type="subscribe"> Subscribe! </button>
-    </section>
     </form>
-        <footer>
-            <p> All rights reserved.</p>
-        </footer>
+    </div>
+    </main>
     </body>
-</div>
 </html>
