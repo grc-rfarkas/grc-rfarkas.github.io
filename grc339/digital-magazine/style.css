@@ -201,6 +201,7 @@ aside{
 
     aside{
         grid-column: 2/3;
+        grid-row-start: 1;
     }
 
     
@@ -291,7 +292,7 @@ div.photos{
 }
 
 div.photos img{
-    width: 30%;
+    width: 10%;
 }
 
 form {
