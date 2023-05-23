@@ -217,7 +217,7 @@ aside{
 figure.gallery{
     width: calc(100% + 1em);
     position: absolute;
-    opacity: 1;
+    opacity: 100%;
 }
 
 main.gallery {
