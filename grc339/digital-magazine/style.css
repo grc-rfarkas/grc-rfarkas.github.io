@@ -169,6 +169,10 @@ aside{
         flex-direction: column;
     }
 
+    section.tertiary {
+        grid-column: 2/3;
+    }
+
     section.mainstory figure {
         flex: 1 0 18em;
     }
@@ -182,7 +186,7 @@ aside{
 
    section.mainstory figure div img{
     height: 100%;
-    opacity: 100%;
+    opacity: 0;
    }
 
    section.secondary figure div im{
@@ -217,7 +221,8 @@ aside{
 figure.gallery{
     width: calc(100% + 1em);
     position: absolute;
-    opacity: 100%;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 main.gallery {
