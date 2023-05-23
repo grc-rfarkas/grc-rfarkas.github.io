@@ -346,3 +346,16 @@ button {
 div.gallery-container {
     max-width: 40em;
     margin: auto;}
+
+    button {
+        appearance: auto;
+        color: #f2c36b;
+        display: inline-block;
+        text-align: center;
+        align-items: flex-start;
+        cursor: default;
+        box-sizing: border-box;
+        margin: 0em;
+        padding: 1px 6px;
+        border-width: 2px;
+    }
