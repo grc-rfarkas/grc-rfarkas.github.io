@@ -285,3 +285,6 @@ photos{
     grid-column-start: 1/2;
 }
 
+photos.img{
+    width: 30%;
+}
