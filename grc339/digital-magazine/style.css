@@ -342,9 +342,8 @@ h2.newsletter{
    
 }
 .newsletter img {
-    height: 15em;
-    object-fit: cover;
-    max-width: 60em;
+    height: auto;
+    max-width: 10em;
 }
 
 main.newsletter {
