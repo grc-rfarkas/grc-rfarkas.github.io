@@ -123,6 +123,10 @@ a {
 
 li{
     display: inline-block;
+    font-family: "owners-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
 }
 
 section{
@@ -281,11 +285,12 @@ input{
     display: none;
 }
 
-photos{
+div.photos{
     grid-column-start: 1/2;
+    grid-row-start: 8;
 }
 
-photos.img{
+div.photos img{
     width: 30%;
 }
 
@@ -333,7 +338,8 @@ div.gallery-container {
 
     button {
         appearance: auto;
-        color: #f2c36b;
+        color: #000000;
+        background-color: #f2c36b;
         display: inline-block;
         text-align: center;
         align-items: flex-start;
@@ -343,3 +349,9 @@ div.gallery-container {
         padding: 1px 6px;
         border-width: 2px;
     }
+
+div.newsletter {
+    max-width: 80em;
+    margin: 0 auto;
+    padding-left: 0em;
+}
