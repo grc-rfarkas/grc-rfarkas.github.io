@@ -288,3 +288,57 @@ photos{
 photos.img{
     width: 30%;
 }
+
+form {
+	max-width: 50em;
+	margin: auto;
+}
+
+form header {
+	padding: 2em 0em;
+}
+
+section.personal-info {
+	padding-bottom: 2em;
+}
+
+section.personal-info ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+}
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li select {
+	flex: 1 0 25em;
+	box-sizing: border-box;
+}
+
+section.personal-info ul li label {
+	flex: 0 0 4em;
+}
+
+section.preferences p {
+	padding-bottom: 0;
+}
+
+.left-li {
+	list-style: none;
+	padding-left: 0;
+}
+
+textarea {
+	box-sizing: border-box;
+	display: flex;
+	width: 100%;
+	padding-bottom: 2em;
+}
+
+button {
+	margin-top: 2em;
+}
+
+.subscribe h2 {
+	padding-bottom: 1em;
+}
