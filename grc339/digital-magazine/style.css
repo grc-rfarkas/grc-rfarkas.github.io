@@ -311,6 +311,8 @@ section.personal-info ul li {
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 1em;
+    padding: none;
+    margin-left: 0em;
 }
 
 section.personal-info ul li input[type="text"],
