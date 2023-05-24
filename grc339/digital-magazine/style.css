@@ -78,7 +78,7 @@ p.story{
 }
 
 article img{
-    width: 75%;
+    width: 90%;
 }
 
 .navbar a {
@@ -301,7 +301,7 @@ div.photos{
 }
 
 div.photos img{
-    width: 40%;
+    width: 30%;
 }
 
 input::placeholder {
