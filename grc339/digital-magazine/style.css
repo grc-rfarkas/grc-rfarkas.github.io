@@ -375,3 +375,17 @@ div.selection{
         font-style: normal;
         font-size: 0.75em;
 }
+
+.formStyle {
+    display: block;
+    padding: 1.25em; 
+    width: 29em; 
+    margin-bottom: 1.25em; 
+    border-top-style: none; 
+    border-right-style: none; 
+    border-left-style: none;
+    font-family: "owners-wide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    color: #696a6d;
+}
