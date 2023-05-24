@@ -301,6 +301,10 @@ input::placeholder {
     font-size: 1.4em;
     font-style: normal;
     color: #696a6d;
+    font-family: "owners-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.75em;
 }
 
 .checkbox {
@@ -308,39 +312,13 @@ input::placeholder {
     display: inline;
 }
 
-.formButton:hover {
-    background-color: #f3b378;
-    color: #696a6d;
-}
 
 .newsletter img {
     object-fit: cover;
     max-width: 60em;
 }
 
-h2.newsletter{
-    font-family: dapifer,serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1.5em;
-    color: #f19f71;
-    margin-bottom: 1em;
-}
 
-.formStyle {
-    display: block;
-    padding: 1.25em; 
-    width: 29em; 
-    margin-bottom: 1.25em; 
-    border-top-style: none; 
-    border-right-style: none; 
-    border-left-style: none;
-    font-family: davis-sans, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #696a6d;
-   
-}
 .newsletter img {
     height: auto;
     max-width: 40em;
@@ -355,6 +333,7 @@ main.newsletter {
     position:relative;
     top:0.1875em;
 }
+
 button {
 	margin-top: 2em;
 }
@@ -388,4 +367,11 @@ div.newsletter {
     max-width: 80em;
     margin: 0 auto;
     padding-left: 0em;
+}
+
+div.selection{
+        font-family: "owners-wide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.75em;
 }
