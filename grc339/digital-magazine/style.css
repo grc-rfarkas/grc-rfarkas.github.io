@@ -1,4 +1,4 @@
-//*CSS document*/
+/*CSS document*/
 
 body {
     color: #111111;
@@ -230,7 +230,7 @@ figure.gallery{
     width: calc(100% + 1em);
     position: absolute;
     opacity: 0;
-    transition: opacity 1s;
+    transition: opacity 0.5s;
 }
 
 main.gallery {
@@ -282,7 +282,7 @@ input:nth-of-type(24):checked ~ main figure:nth-of-type(24),
 input:nth-of-type(25):checked ~ main figure:nth-of-type(25),
 input:nth-of-type(26):checked ~ main figure:nth-of-type(26),
 input:nth-of-type(27):checked ~ main figure:nth-of-type(27),
-input:nth-of-type(28):checked ~ main figure:nth-of-type(28),
+input:nth-of-type(28):checked ~ main figure:nth-of-type(28){
 
     left: 0;
     opacity: 1;
