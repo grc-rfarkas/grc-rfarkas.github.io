@@ -78,7 +78,7 @@ p.story{
 }
 
 article img{
-    width: 65%;
+    width: 75%;
 }
 
 .navbar a {
@@ -374,8 +374,7 @@ div.gallery-container {
 
 div.newsletter {
     max-width: 80em;
-    margin: 0 auto;
-    padding-left: 0em;
+    margin: 0;
 }
 
 div.selection{
