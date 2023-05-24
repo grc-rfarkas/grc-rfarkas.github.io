@@ -78,7 +78,7 @@ p.story{
 }
 
 article img{
-    width: 70%;
+    width: 50%;
 }
 
 .navbar a {
@@ -141,6 +141,8 @@ aside{
     padding: 1em 1.2em 1.2em;
 }
 
+
+
 .crop {
     height: 25em;
     width: 20em;
@@ -150,7 +152,13 @@ aside{
     height: auto;
     width: 1em;
    }
-
+   
+   @media only screen and (min-width: 60em){
+    div.container{ 
+        display:grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 0 1em;
+    }
 
     header{
         grid-column: 1/3;
