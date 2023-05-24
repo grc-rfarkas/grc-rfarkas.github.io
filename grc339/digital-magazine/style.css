@@ -302,7 +302,7 @@ div.photos{
 }
 
 div.photos img{
-    width: 80%;
+    width: 100%;
 }
 
 input::placeholder {
