@@ -227,7 +227,7 @@ input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
 input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
 input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
 input:nth-of-type(8):checked ~ main figure:nth-of-type(8),
-input:nth-of-type(5):checked ~ main figure:nth-of-type(9){
+input:nth-of-type(9):checked ~ main figure:nth-of-type(9){
     opacity: 1;
 }
 
