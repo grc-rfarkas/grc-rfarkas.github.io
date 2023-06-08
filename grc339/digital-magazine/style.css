@@ -191,3 +191,56 @@ aside{
     display: grid;
     }
 }
+
+
+div.gallery img {
+	width: 100%;
+}
+
+div.gallery main {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: calc(68% + 3em);
+}
+
+div.gallery figure {
+    margin: 0;
+    width: calc(100%-2em);
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
+
+div.gallery figcaption {
+    margin: 1.5em 0;
+    font-family: Termina;
+    font-weight: 300;
+    font-style: italic;    
+    font-size: 1em;
+}
+
+input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
+input:nth-of-type(2):checked ~ main figure:nth-of-type(2),
+input:nth-of-type(3):checked ~ main figure:nth-of-type(3),
+input:nth-of-type(4):checked ~ main figure:nth-of-type(4),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(5),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(6),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(7),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(8),
+input:nth-of-type(5):checked ~ main figure:nth-of-type(9),
+input:nth-of-type(6):checked ~ main figure:nth-of-type(10),
+input:nth-of-type(7):checked ~ main figure:nth-of-type(11),
+input:nth-of-type(8):checked ~ main figure:nth-of-type(12){
+    opacity: 1;
+}
+
+div.gallery nav {
+    display: flex;
+    grid-template-columns: repeat (3,1fr);
+    grid-gap: 0.2em;
+}
+
+
+div.gallery input {
+    display: none;
+}
