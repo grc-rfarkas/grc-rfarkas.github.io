@@ -194,7 +194,7 @@ aside{
 
 
 div.gallery img {
-	width: 80%;
+	max-width: 5em;
 }
 
 div.gallery main {
@@ -233,7 +233,7 @@ input:nth-of-type(9):checked ~ main figure:nth-of-type(9){
 div.gallery nav {
     display: flex;
     grid-template-columns: repeat (3,1fr);
-    grid-gap: 0.2em;
+    grid-gap: 0.1em;
 }
 
 
