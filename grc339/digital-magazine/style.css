@@ -194,7 +194,7 @@ aside{
 
 
 div.gallery img {
-
+max-width: 40em;
 }
 
 div.gallery main {
